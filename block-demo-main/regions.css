@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  height: 100%;
+}
+html ::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  height: 100%;
+  font-size: 16px;
+  margin: 0;
+  -moz-osx-font-smoothings: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.region-wrap {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75em;
+}
+
+.tc-font-libre_baskerville {
+  font-family: "Libre Baskerville", serif;
+}
+
+.tc-font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.tc-v2-region-hero-1 {
+  background: var(--background_color, #000000);
+}
+.tc-v2-region-hero-1 .region-wrap-content {
+  min-height: 42em;
+  position: relative;
+}
+.tc-v2-region-hero-1 .section-logo {
+  padding: 1.5em 0 3.5em;
+}
+.tc-v2-region-hero-1 .section-logo img {
+  display: block;
+  width: 100%;
+  max-width: 9em;
+}
+.tc-v2-region-hero-1 .section-speakers .section-speakers-1,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-2,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-3,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-4 {
+  position: absolute;
+}
+.tc-v2-region-hero-1 .section-speakers .section-speakers-1 .builder-v2-widget,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-2 .builder-v2-widget,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-3 .builder-v2-widget,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-4 .builder-v2-widget {
+  position: relative;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.tc-v2-region-hero-1 .section-speakers .section-speakers-1 .builder-v2-widget img,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-2 .builder-v2-widget img,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-3 .builder-v2-widget img,
+.tc-v2-region-hero-1 .section-speakers .section-speakers-4 .builder-v2-widget img {
+  display: block;
+  width: 100%;
+}
+.tc-v2-region-hero-1 .section-speakers .section-speakers-1 {
+  max-width: 21.5em;
+  top: -1em;
+  left: 0;
+}
+.tc-v2-region-hero-1 .section-speakers .section-speakers-2 {
+  max-width: 11em;
+  right: 0;
+  top: 7.5em;
+}
+.tc-v2-region-hero-1 .section-speakers .section-speakers-3 {
+  max-width: 14em;
+  left: 7.5em;
+  bottom: 12em;
+}
+.tc-v2-region-hero-1 .section-speakers .section-speakers-4 {
+  max-width: 17em;
+  right: 0;
+  bottom: 6em;
+}
+.tc-v2-region-hero-1 .section-speakers img.bgdetail {
+  position: absolute;
+  left: -2em;
+  bottom: -2em;
+  width: 4.5em;
+}
+.tc-v2-region-hero-1 .section-content {
+  max-width: 43em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.tc-v2-region-hero-1 .content-title {
+  margin-bottom: 2em;
+}
+.tc-v2-region-hero-1 .content-title .builder-v2-widget {
+  font-size: 70px;
+  color: #FFF;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: -0.0125em;
+}
+.tc-v2-region-hero-1 .content-title .builder-v2-widget span {
+  color: #43AA66;
+}
+.tc-v2-region-hero-1 .content-text {
+  margin-bottom: 2em;
+  padding: 0 8em;
+}
+.tc-v2-region-hero-1 .content-text .builder-v2-widget {
+  font-size: 18px;
+  color: #D4D4D4;
+  line-height: 1.5em;
+}
+.tc-v2-region-hero-1 .content-button {
+  text-align: center;
+}
+.tc-v2-region-hero-1 .content-button .builder-v2-widget > div {
+  display: inline-block;
+  padding: 0.75em 4.5em;
+  background-color: #5243AA;
+  border-radius: 2em;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.tc-v2-region-hero-2 .section-seen-title .builder-v2-widget {
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+}
+.tc-v2-region-hero-2 .section-seen-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+.tc-v2-region-hero-2 .section-seen-grid::before {
+  content: "";
+  position: absolute;
+  bottom: -5em;
+  width: 100%;
+  height: 1px;
+  background-color: #E8E7F0;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item {
+  padding: 0 2.5em;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item:first-child {
+  padding-left: 0;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item:last-child {
+  padding-right: 0;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item .item-logo {
+  max-width: 12.5em;
+  height: 3.25em;
+  margin-bottom: 1.47em;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item .item-logo .builder-v2-widget {
+  position: relative;
+  width: 100%;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item .item-logo .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item .item-logo .custom-top {
+  top: 0.4em;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item .item-text .builder-v2-widget {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.346154px;
+  color: #404852;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item .item-name .builder-v2-widget:first-child {
+  font-size: 13px;
+  line-height: 13px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  color: #273240;
+}
+.tc-v2-region-hero-2 .section-seen-grid-item .item-name .builder-v2-widget:last-child {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: #2C3A4B;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=regions.css.map */

@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    ::-webkit-scrollbar{
+      display: none
+    }
+  }
+  body {
+    height: 100%;
+    font-size: 16px;
+    margin: 0;
+    -moz-osx-font-smoothings: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .region-wrap {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75em;
+}
