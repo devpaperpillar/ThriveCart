@@ -2,7 +2,7 @@
     .section-about{
         &-title{
             width: 44em;
-            margin: 0;
+            margin: 0 0 3.75em;
             .builder-v2-widget{
                 font-size: 3.125em;
                 line-height: 1.3em;
@@ -20,6 +20,72 @@
                             width: 100%;
                             img{
                                 width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1.375em;
+            .grid-item{
+                &-background{
+                    background-color: #fff;
+                    box-shadow: 0px 20px 40px rgba(64, 72, 82, 0.1);
+                    border-radius: 12px;
+                    padding: 2em;
+                }
+                &-description{
+                    .builder-v2-widget{
+                        font-size: 1em;
+                        line-height: 1.625em;
+                        letter-spacing: 0.346154px;
+                        color: #121212;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+                &-profile{
+                    display: flex;
+                    margin-top: 1.25em;
+                    align-items: center;
+                    .profile-image{
+                        width: 3em;
+                        .builder-v2-widget{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .profile-text{
+                        margin-left: 1.375em;
+                        &-name{
+                            .builder-v2-widget{
+                                font-size: 0.812em;
+                                line-height: 0.812em;
+                                margin-bottom: .5em;
+                                letter-spacing: .3px;
+                                color: #121212;
+                                font-weight: 500;
+                                p{
+                                    margin: 0;
+                                }
+                            }
+                        }
+                        &-title{
+                            .builder-v2-widget{
+                                font-size: 0.75em;
+                                line-height: 0.75em;
+                                color: #121212;
+                                opacity: .5;
+                                letter-spacing: .3px;
+                                p{
+                                    margin: 0;
+                                }
                             }
                         }
                     }

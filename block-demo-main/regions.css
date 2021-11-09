@@ -416,7 +416,7 @@ body {
 
 .tc-v2-region-hero-6 .section-about-title {
   width: 44em;
-  margin: 0;
+  margin: 0 0 3.75em;
 }
 .tc-v2-region-hero-6 .section-about-title .builder-v2-widget {
   font-size: 3.125em;
@@ -439,6 +439,64 @@ body {
 }
 .tc-v2-region-hero-6 .section-about-title .builder-v2-widget p span .builder-v2-widget-absolute img {
   width: 100%;
+}
+.tc-v2-region-hero-6 .section-about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.375em;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-background {
+  background-color: #fff;
+  box-shadow: 0px 20px 40px rgba(64, 72, 82, 0.1);
+  border-radius: 12px;
+  padding: 2em;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-description .builder-v2-widget {
+  font-size: 1em;
+  line-height: 1.625em;
+  letter-spacing: 0.346154px;
+  color: #121212;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-description .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile {
+  display: flex;
+  margin-top: 1.25em;
+  align-items: center;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-image {
+  width: 3em;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-image .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-image .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-text {
+  margin-left: 1.375em;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-text-name .builder-v2-widget {
+  font-size: 0.812em;
+  line-height: 0.812em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.3px;
+  color: #121212;
+  font-weight: 500;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-text-name .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-text-title .builder-v2-widget {
+  font-size: 0.75em;
+  line-height: 0.75em;
+  color: #121212;
+  opacity: 0.5;
+  letter-spacing: 0.3px;
+}
+.tc-v2-region-hero-6 .section-about-grid .grid-item-profile .profile-text-title .builder-v2-widget p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=regions.css.map */
