@@ -225,15 +225,15 @@ body {
   color: #3DA0E8;
   position: relative;
 }
-.tc-v2-region-hero-3 .section-we-left-title .builder-v2-widget p span .builder-v2-widget {
+.tc-v2-region-hero-3 .section-we-left-title .builder-v2-widget p span .builder-v2-widget-absolute {
   line-height: 0em;
   position: absolute;
   bottom: -0.04em;
   left: 0;
-  width: 1.7em;
+  width: 100%;
   margin: 0;
 }
-.tc-v2-region-hero-3 .section-we-left-title .builder-v2-widget p span .builder-v2-widget img {
+.tc-v2-region-hero-3 .section-we-left-title .builder-v2-widget p span .builder-v2-widget-absolute img {
   width: 100%;
 }
 .tc-v2-region-hero-3 .section-we-left-description .builder-v2-widget {
@@ -264,6 +264,180 @@ body {
   width: 100%;
 }
 .tc-v2-region-hero-3 .section-we-right .builder-v2-widget img {
+  width: 100%;
+}
+
+.tc-v2-region-hero-4 .section-direct-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.tc-v2-region-hero-4 .section-direct-right {
+  width: 31.25em;
+}
+.tc-v2-region-hero-4 .section-direct-right-title .builder-v2-widget {
+  font-size: 3.125em;
+  line-height: 1.3em;
+  margin-bottom: 0.4em;
+}
+.tc-v2-region-hero-4 .section-direct-right-title .builder-v2-widget p {
+  font-weight: bold;
+  margin: 0;
+}
+.tc-v2-region-hero-4 .section-direct-right-title .builder-v2-widget p span {
+  color: #43AA66;
+  position: relative;
+}
+.tc-v2-region-hero-4 .section-direct-right-title .builder-v2-widget p span .builder-v2-widget-absolute {
+  line-height: 0em;
+  position: absolute;
+  bottom: -0.04em;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.tc-v2-region-hero-4 .section-direct-right-title .builder-v2-widget p span .builder-v2-widget-absolute img {
+  width: 100%;
+}
+.tc-v2-region-hero-4 .section-direct-right-description .builder-v2-widget {
+  font-size: 0.875em;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+}
+.tc-v2-region-hero-4 .section-direct-right-description .builder-v2-widget p {
+  color: #121212;
+  opacity: 0.7;
+  margin: 0;
+}
+.tc-v2-region-hero-4 .section-direct-right-button .builder-v2-widget > button {
+  display: inline-block;
+  padding: 0.75em 4.5em;
+  border: none;
+  background: #5243AA;
+  border-radius: 2em;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.tc-v2-region-hero-4 .section-direct-left {
+  width: 40.1em;
+}
+.tc-v2-region-hero-4 .section-direct-left .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-hero-4 .section-direct-left .builder-v2-widget img {
+  width: 100%;
+}
+
+.tc-v2-region-hero-5 .section-learn-title {
+  width: 50em;
+  margin: 0 auto 8.375em;
+}
+.tc-v2-region-hero-5 .section-learn-title .builder-v2-widget {
+  font-size: 3.125em;
+  line-height: 1.3em;
+  text-align: center;
+  font-weight: 700;
+}
+.tc-v2-region-hero-5 .section-learn-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-hero-5 .section-learn-title .builder-v2-widget p span {
+  color: #DF3B45;
+  position: relative;
+}
+.tc-v2-region-hero-5 .section-learn-title .builder-v2-widget p span .builder-v2-widget-absolute {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -1em;
+}
+.tc-v2-region-hero-5 .section-learn-title .builder-v2-widget p span .builder-v2-widget-absolute img {
+  width: 100%;
+}
+.tc-v2-region-hero-5 .section-learn-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left {
+  max-width: 18.75em;
+  margin: 0;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item {
+  margin-bottom: 5em;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-image {
+  width: 3.75em;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-image .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-image .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-title {
+  margin: 1.25em 0 0.875em;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-title .builder-v2-widget {
+  font-size: 1.375em;
+  line-height: 2em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #121212;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-description {
+  margin: 0;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-description .builder-v2-widget {
+  font-size: 1em;
+  line-height: 1.625em;
+  letter-spacing: 0.3px;
+  color: #121212;
+  opacity: 0.7;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-left-item .grid-item-description .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-middle-image {
+  width: 29.125em;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-middle-image .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-hero-5 .section-learn-grid .grid-middle-image .builder-v2-widget img {
+  width: 100%;
+}
+
+.tc-v2-region-hero-6 .section-about-title {
+  width: 44em;
+  margin: 0;
+}
+.tc-v2-region-hero-6 .section-about-title .builder-v2-widget {
+  font-size: 3.125em;
+  line-height: 1.3em;
+  font-weight: 700;
+  color: #191919;
+}
+.tc-v2-region-hero-6 .section-about-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-hero-6 .section-about-title .builder-v2-widget p span {
+  color: #D97B1E;
+  position: relative;
+}
+.tc-v2-region-hero-6 .section-about-title .builder-v2-widget p span .builder-v2-widget-absolute {
+  position: absolute;
+  left: 0;
+  bottom: -0.5em;
+  width: 100%;
+}
+.tc-v2-region-hero-6 .section-about-title .builder-v2-widget p span .builder-v2-widget-absolute img {
   width: 100%;
 }
 

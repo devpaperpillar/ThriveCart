@@ -1,12 +1,12 @@
-.tc-v2-region-hero-3{
-    .section-we{
+.tc-v2-region-hero-4{
+    .section-direct{
         &-grid{
             display: flex;
             flex-wrap: nowrap;
             justify-content: space-between;
             align-items: center;
         }
-        &-left{
+        &-right{
             width: 31.25em;
             &-title{
                 .builder-v2-widget{
@@ -17,7 +17,7 @@
                         font-weight: bold;
                         margin: 0;
                         span{
-                            color: #3DA0E8;
+                            color: #43AA66;
                             position: relative;
                             .builder-v2-widget-absolute{
                                 line-height: 0em;
@@ -60,7 +60,7 @@
                 }
             }
         }
-        &-right{
+        &-left{
             width: 40.1em;
             .builder-v2-widget{
                 width: 100%;

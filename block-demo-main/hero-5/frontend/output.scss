@@ -1,0 +1,89 @@
+.tc-v2-region-hero-5{
+    .section-learn{
+        &-title{
+            width: 50em;
+            margin: 0 auto 8.375em;
+            .builder-v2-widget{
+                font-size: 3.125em;
+                line-height: 1.3em;
+                text-align: center;
+                font-weight: 700;
+                p{
+                    margin: 0;
+                    span{
+                        color: #DF3B45;
+                        position: relative;
+                        .builder-v2-widget-absolute{
+                            position: absolute;
+                            width: 100%;
+                            left: 0;
+                            bottom: -1em;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-grid{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .grid-left{
+                max-width: 18.75em;
+                margin: 0;
+                &-item{
+                    margin-bottom: 5em;
+                    .grid-item-image{
+                        width: 3.75em;
+                        .builder-v2-widget{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .grid-item-title{
+                        margin: 1.25em 0 .875em;
+                        .builder-v2-widget{
+                            font-size: 1.375em;
+                            line-height: 2em;
+                            font-weight: 600;
+                            letter-spacing: .3px;
+                            color: #121212;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .grid-item-description{
+                        margin: 0;
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            line-height: 1.625em;
+                            letter-spacing: .3px;
+                            color: #121212;
+                            opacity: .7;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .grid-middle{
+                &-image{
+                    width: 29.125em;
+                    .builder-v2-widget{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

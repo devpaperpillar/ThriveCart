@@ -1,0 +1,30 @@
+.tc-v2-region-hero-6{
+    .section-about{
+        &-title{
+            width: 44em;
+            margin: 0;
+            .builder-v2-widget{
+                font-size: 3.125em;
+                line-height: 1.3em;
+                font-weight: 700;
+                color: #191919;
+                p{
+                    margin: 0;
+                    span{
+                        color: #D97B1E;
+                        position: relative;
+                        .builder-v2-widget-absolute{
+                            position: absolute;
+                            left: 0;
+                            bottom: -0.5em;
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
