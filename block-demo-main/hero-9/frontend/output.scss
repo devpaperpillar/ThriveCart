@@ -1,0 +1,32 @@
+.tc-v2-region-hero-9{
+    background-color: #000;
+    padding: 0 6.25em;
+    .section-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-item{
+            display: flex;
+            align-items: center;
+            grid-gap: 3.125em;
+            .logo{
+                .builder-v2-widget{
+                    width: 9.625em;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .copyright{
+                .builder-v2-widget{
+                    color: #B1B1B1;
+                    font-size: .75em;
+                    letter-spacing: .3px;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
