@@ -71,3 +71,31 @@
         }
     }
 }
+
+@media (max-width: 576px){
+    .tc-v2-region-hero-3 {
+        .section-we{
+            &-grid{
+                flex-direction: column;
+            }
+            &-left{
+                width: 100%;
+                &-title{
+                    .builder-v2-widget{
+                        font-size: 30px;
+                        line-height: 38px;
+                    }
+                }
+                &-button{
+                    .builder-v2-widget > button {
+                        width: 100%;
+                    }
+                }
+            }
+            &-right{
+                width: 100%;
+                margin-top: 40px;
+            }
+        }
+    }
+}

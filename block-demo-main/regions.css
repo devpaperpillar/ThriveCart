@@ -299,8 +299,16 @@ body {
   .tc-v2-region-hero-3 .section-we-left {
     width: 100%;
   }
+  .tc-v2-region-hero-3 .section-we-left-title .builder-v2-widget {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .tc-v2-region-hero-3 .section-we-left-button .builder-v2-widget > button {
+    width: 100%;
+  }
   .tc-v2-region-hero-3 .section-we-right {
     width: 100%;
+    margin-top: 40px;
   }
 }
 .tc-v2-region-hero-4 .section-direct-grid {
@@ -367,6 +375,28 @@ body {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  .tc-v2-region-hero-4 .section-direct-grid {
+    flex-direction: column-reverse;
+  }
+  .tc-v2-region-hero-4 .section-direct-right {
+    width: 100%;
+  }
+  .tc-v2-region-hero-4 .section-direct-right-title {
+    width: 100%;
+  }
+  .tc-v2-region-hero-4 .section-direct-right-title .builder-v2-widget {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .tc-v2-region-hero-4 .section-direct-right-button .builder-v2-widget > button {
+    width: 100%;
+  }
+  .tc-v2-region-hero-4 .section-direct-left {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
 .tc-v2-region-hero-5 .section-learn-title {
   width: 50em;
   margin: 0 auto 8.375em;
