@@ -87,3 +87,68 @@
         }
     }
 }
+
+@media (max-width: 576px){
+    .tc-v2-region-hero-5 {
+        .section-learn{
+            &-title{
+                width: calc(100% - 2em);
+                margin-bottom: 2.5em;
+                .builder-v2-widget{
+                    font-size: 1.875em;
+                    line-height: 1.375em;
+                    text-align: left;
+                }
+            }
+            &-grid{
+                flex-direction: column;
+                .grid-left{
+                    max-width: 100%;
+                    &-item{
+                        display: flex;
+                        margin-bottom: 2.5em;
+                        .grid-item-image{
+                            .builder-v2-widget{
+                                width: 3.75em;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        .grid-item-text{
+                            width: 100%;
+                            padding-left: 1.25em;
+                        }
+                        .grid-item-title{
+                            margin: 0;
+                            .builder-v2-widget{
+                                font-size: 1.125em;
+                                line-height: 2em;
+                            }
+                        }
+                        .grid-item-description{
+                            margin: 0;
+                            .builder-v2-widget{
+                                font-size: .875em;
+                                line-height: 1.625em;
+                                letter-spacing: .3px;
+                                color: #121212;
+                                opacity: .7;
+                                p{
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .grid-middle{
+                    order: 3;
+                    &-image{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

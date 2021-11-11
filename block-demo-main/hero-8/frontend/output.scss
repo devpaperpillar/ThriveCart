@@ -169,3 +169,98 @@
         }
     }
 }
+
+@media (max-width: 576px){
+    .tc-v2-region-hero-8{
+        background-color: #000;
+        padding: 0;
+        .section-questions{
+            flex-direction: column;
+            &-left{
+                width: 100%;
+                &-title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                    }
+                }
+                &-email{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 2.875em;
+                    margin-bottom: 1.75em;
+                    padding-bottom: 1.75em;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                    .image{
+                        margin-right: 1.25em;
+                        .builder-v2-widget{
+                            width: 2.5em;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .text{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                    .description{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: .875em;
+                            }
+                        }
+                    }
+                }
+                &-phone{
+                    display: flex;
+                    align-items: center;
+                    .image{
+                        margin-right: 1.25em;
+                        .builder-v2-widget{
+                            width: 2.5em;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .text{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                    .description{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: .875em;
+                            }
+                        }
+                    }
+                }
+            }
+            &-right{
+                width: 100%;
+                margin-top: 2.5em;
+                .section-right-item{
+                    padding: 1.25em 5em 1.25em 1.25em;
+                    margin-bottom: 1em;
+                    .absolute{
+                        right: 1.25em;
+                        top: 1.5em;
+                        width: 1.5em;
+                    }
+                    .title{
+                        margin-left: 1em;
+                        .builder-v2-widget{
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
