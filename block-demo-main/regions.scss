@@ -730,6 +730,86 @@
     }
 
 }
+.tc-v2-region-pageTwo-5{
+    p{
+        margin: 0;
+    }
+    .section-grid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 4em;
+        .section-right{
+            &-title{
+                width: 31.25em;
+                .builder-v2-widget{
+                    font-size: 2.1875em;
+                    line-height: 1.2em;
+                    font-weight: 600;
+                    letter-spacing: .3px;
+                    color: #121212;
+                    p{
+                        span{
+                            color: #27A0E4;
+                        }
+                    }
+                }
+            }
+            &-description{
+                width: 26.25em;
+                margin-top: 1.25em;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .3px;
+                    color: #121212;
+                    opacity: .7;
+                }
+            }
+        }
+
+        .section-left{
+            .builder-v2-widget{
+                width: 35.06em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px){
+
+    .tc-v2-region-pageTwo-5{
+        .section-grid{
+            flex-direction: column-reverse;
+            padding-top: 0;
+            .section-right{
+                &-title{
+                    width: 100%;
+                    .builder-v2-widget{
+                        line-height: 1.3em;
+                        font-size: 1.875em;
+                    }
+                }
+                &-description{
+                    width: 100%;
+                    .builder-v2-widget{
+                        font-size: .875em;
+                    }
+                }
+            }
+    
+            .section-left{
+                margin-top: 2.5em;
+                .builder-v2-widget{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
 .tc-v2-region-pageTwo-6{
     p{
         margin: 0;
@@ -872,7 +952,6 @@
     }
 
 }
-
 .tc-v2-region-pageTwo-7{
     background-color: #342C55;
     p{

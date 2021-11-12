@@ -1,0 +1,570 @@
+.tc-v2-region-pageTwo-7{
+    background-color: #342C55;
+    p{
+        margin: 0;
+    }
+    .section-grid{
+        display: flex;
+        .section-left{
+            width: 26.875em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 2.1875em;
+                    color: #fff;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    letter-spacing: .3px;
+                }
+            }
+            .description{
+                margin-top: 1.25em;
+                padding-bottom: 2.5em;
+                border-bottom: 1px solid rgba(255, 255, 255, .2);
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .35px;
+                    color: #fff;
+                    opacity: .7;
+                }
+            }
+
+            .list{
+                margin-top: 2.5em;
+                padding-bottom: 2.5em;
+                border-bottom: 1px solid rgba(255, 255, 255, .2);
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    li{
+                        display: flex;
+                        margin-bottom: 1.25em;
+                        .checklist{
+                            margin-right: .81em;
+                            margin-top: .26em;
+                            .builder-v2-widget{
+                                width: .875em;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        .text{
+                            .builder-v2-widget{
+                                font-size: 1em;
+                                color: #fff;
+                                opacity: .7;
+                                letter-spacing: .3px;
+                            }
+                        }
+                    }
+                }
+            }
+            .secure{
+                margin-top: 2.5em;
+                .item{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1.875em;
+                    .image{
+                        margin-right: 1em;
+                        height: 2.625em;
+                        .builder-v2-widget{
+                            width: 2.625em;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .text{
+                        .builder-v2-widget{
+                            font-size: 1.25em;
+                            color: #999999;
+                            letter-spacing: 1px;
+                            p{
+                                span{
+                                    font-weight: 600;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-right{
+            margin-left: 6.25em;
+            .section-lifetime-information{
+                position: relative;
+                .information-background{
+                    background-color: #fff;
+                    box-shadow: 0px 10px 50px rgba(34, 47, 62, 0.1);
+                    border-radius: .5em;
+                    padding: 1.25em 1.25em 1.25em 0;
+                    display: flex;
+                    align-items: center;
+                }
+                .information-left{
+                    padding: 1.25em 3.125em;
+                    width: 100%;
+                    &-top{
+                        display: flex;
+                        align-items: center;
+                        &-number{
+                            display: flex;
+                            align-items: center;
+                            .number{
+                                border-radius: 50%;
+                                background-color: #5243AA;
+                                display: inline-block;
+                                width: 1.5em;
+                                height: 1.5em;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .builder-v2-widget{
+                                    font-size: .625em;
+                                    color: #fff;
+                                    font-weight: 600;
+                                    letter-spacing: .3px;
+                                    p{
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                            .description{
+                                margin-left: .5em;
+                                .builder-v2-widget{
+                                    font-size: .75em;
+                                    font-weight: 600;
+                                    letter-spacing: .3px;
+                                    color: #5243A9;
+                                    text-transform: capitalize;
+                                    p{
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                        .passive{
+                            margin-left: 2.75em;
+                            opacity: .5;
+                            .number{
+                                background-color: transparent;
+                                border: 1px solid #5243A9;
+                                .builder-v2-widget{
+                                    color: #5243A9;
+                                }
+                            }
+                        }
+                    }
+                    &-form{
+                        margin-top: 3.125em;
+                        .form-title{
+                            margin-bottom: 2.6em;
+                            .builder-v2-widget{
+                                font-size: 1.5em;
+                                line-height: 2.125em;
+                                letter-spacing: .3px;
+                                color: #121212;
+                                font-weight: 600;
+                                p{
+                                    margin: 0;
+                                }
+                            }
+                        }
+                        form{
+                            .item{
+                                margin-bottom: 2em;
+                                &:last-child{
+                                    margin-bottom: 0;
+                                }
+                                .label{
+                                    margin-bottom: .75em;
+                                    .builder-v2-widget{
+                                        font-size: .875em;
+                                        letter-spacing: .3px;
+                                        color: #121212;
+                                        font-weight: 500;
+                                        p{
+                                            margin: 0;
+                                        }
+                                    }
+                                }
+                                .grid{
+                                    display: flex;
+                                    grid-column-gap: 1.875em;
+                                    .item{
+                                        width: 100%;
+                                        margin: 0;
+                                    }
+                                    .zip-code{
+                                        width: 40%;
+                                    }
+                                }
+                                .box-input{
+                                    width: 100%;
+                                    .builder-v2-widget{
+                                        padding: 1.43em 1.06em;
+                                        border-radius: 8px;
+                                        border: 1px solid #DEE5ED;
+                                        input{
+                                            width: 100%;
+                                            background:transparent;
+                                            outline: none;
+                                            border: none;
+                                            font-size: .875em;
+                                            letter-spacing: .3px;
+                                            &::placeholder{
+                                                color: #1C2439;
+                                                opacity: .7;
+                                            }
+                                        }
+                                        select{
+                                            width: 100%;
+                                            background:transparent;
+                                            outline: none;
+                                            border: none;
+                                            font-size: .875em;
+                                            letter-spacing: .3px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .total-payment{
+                    background-color: #F5F6F8;
+                    border-radius: .5em;
+                    padding: 1.5em;
+                    margin-top: 2.5em;
+                }
+                .information-right-total{
+                    .total-title{
+                        .builder-v2-widget{
+                            font-size: 1.5em;
+                            letter-spacing: .3px;
+                            font-weight: 600;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .total-coupon{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 1.5em;
+                        padding-bottom: 1.25em;
+                        border-bottom: 1px solid #CDD1DA;
+                        .checkbox{
+                            .builder-v2-widget{
+                                width: 1.5em;
+                                height: 1.5em;
+                                background: rgba(8, 160, 247, 0.06);
+                                border: 1px solid #08A0F7;
+                                border-radius: 5px;
+                                input{
+                                    display: none;
+                                }
+                            }
+                        }
+                        .text{
+                            margin-left: 1em;
+                            .builder-v2-widget{
+                                font-size: 1em;
+                                letter-spacing: .3px;
+                                color: #08A0F7;
+                                font-weight: 500;
+                                p{
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .information-right-price{
+                    margin-top: 1.25em;
+                    border-bottom: 2px solid #29335A;
+                    padding-bottom: .875em;
+                    .text{
+                        .builder-v2-widget{
+                            font-size: .875em;
+                            letter-spacing: .5px;
+                            color: #121212;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .text-price{
+                        .builder-v2-widget{
+                            font-size: .875em;
+                            letter-spacing: .5px;
+                            color: #121212;
+                            text-align: right;
+                            font-weight: 500;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+                .information-right-total-bottom{
+                    margin-top: .875em;
+                    display: flex;
+                    justify-content: space-between;
+                    .text{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            letter-spacing: .5px;
+                            color: #121212;
+                            font-weight: 600;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                    .text-price{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            letter-spacing: .5px;
+                            color: #121212;
+                            text-align: right;
+                            font-weight: 500;
+                            font-weight: 600;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+                .information-right-button {
+                    text-align: center;
+                    margin-top: 1.875em;
+                    .builder-v2-widget > button {
+                        width: 100%;
+                        display: inline-block;
+                        padding: 1em;
+                        border: none;
+                        background: #27A0E4;
+                        border-radius: 10em;
+                        color: #fff;
+                        text-align: center;
+                        font-size: 1em;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageTwo-7{
+        overflow: hidden;
+        width: 100%;
+        .section-grid{
+            flex-direction: column;
+            .section-left{
+                width: 100%;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                    }
+                }
+                .description{
+                    margin-top: 1.25em;
+                    padding-bottom: 1.5em;
+                    border-bottom: 1px solid rgba(255, 255, 255, .1);
+                    .builder-v2-widget{
+                        font-size: .875em;
+                    }
+                }
+    
+                .list{
+                    margin-top: 1.5em;
+                    padding-bottom: 0;
+                    border: none;
+                    ul{
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        li{
+                            display: flex;
+                            margin-bottom: 1.5em;
+                            padding-bottom: 1.5em;
+                            border-bottom: 1px solid rgba(255, 255, 255, .1);
+                            &:nth-child(1), &:nth-child(3), &:nth-child(5), &:nth-child(6), &:nth-child(9){
+                                padding-right: .625em;
+                            }
+                            &:nth-child(2), &:nth-child(4), &:nth-child(6), &:nth-child(8), &:nth-child(10){
+                                padding-left: .625em;
+                            }
+                            .checklist{
+                                margin-right: .5em;
+                                margin-top: 0;
+                                .builder-v2-widget{
+                                    width: .675em;
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            .text{
+                                .builder-v2-widget{
+                                    font-size: .875em;
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .secure{
+                    margin-top: 1.5em;
+                    .item{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 1.5em;
+                        .text{
+                            .builder-v2-widget{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .section-right{
+                margin-left: 0;
+                .section-lifetime-information{
+                    .information-background{
+                        background-color: #fff;
+                        box-shadow: 0px 10px 50px rgba(34, 47, 62, 0.1);
+                        border-radius: 0;
+                        padding: 1.25em 0 0;
+                        width: calc(100% + 11%);
+                        margin-left: -5.5% ;
+                        display: block;
+                        align-items: center;
+                    }
+                    .information-left{
+                        padding: 0;
+                        width: 100%;
+                        &-top{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            padding-bottom: 1.25em;
+                            padding-left: 1.25em;
+                            padding-right: 1.25em;
+                            border-bottom: 1px solid #DEDEDEDE;
+                            &-number{
+                                display: flex;
+                                flex-direction: column;
+                                .description{
+                                    margin-left: 0;
+                                    margin-top: .625em;
+                                    .builder-v2-widget{
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                            .passive{
+                                margin-left: 0;
+                                opacity: .5;
+                                .number{
+                                    background-color: transparent;
+                                    border: 1px solid #5243A9;
+                                    .builder-v2-widget{
+                                        color: #5243A9;
+                                    }
+                                }
+                            }
+                        }
+                        &-form{
+                            margin-top: 1.25em;
+                            padding-left: 1.25em;
+                            padding-right: 1.25em;
+                            .form-title{
+                                margin-bottom: 1.6em;
+                                .builder-v2-widget{
+                                    font-size: 1.25em;
+                                    line-height: 1.5em;
+                                }
+                            }
+                            form{
+                                .item{
+                                    margin-bottom: 1.25em;
+                                    .label{
+                                        margin-bottom: .75em;
+                                    }
+                                    .grid{
+                                        display: block;
+                                        .item{
+                                            width: 100%;
+                                            margin: 0;
+                                        }
+                                        .zip-code{
+                                            width: 100%;
+                                            margin-top: 1.25em;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .total-payment{
+                        background-color: #F5F6F8;
+                        border-radius: 0;
+                        padding: 1.5em;
+                        margin-top: 2.5em;
+                    }
+                    .information-right-total{
+                        .total-title{
+                            .builder-v2-widget{
+                                font-size: 1.5em;
+                                letter-spacing: .3px;
+                                font-weight: 600;
+                                p{
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                    .information-right-button {
+                        text-align: center;
+                        margin-top: 0;
+                        padding-top: 2.5em;
+                        padding-bottom: 2.5em;
+                        padding-left: 1.25em;
+                        padding-right: 1.25em;
+                        background-color: #F5F6F8;
+                        .builder-v2-widget > button {
+                            width: 100%;
+                            display: inline-block;
+                            padding: 1em;
+                            border: none;
+                            background: #27A0E4;
+                            border-radius: 10em;
+                            color: #fff;
+                            text-align: center;
+                            font-size: 1em;
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
+                    }
+    
+                }
+            }
+    
+        }
+    }
+
+}
