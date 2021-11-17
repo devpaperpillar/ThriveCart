@@ -1966,6 +1966,7 @@ body {
     position: relative;
   }
   .tc-v2-region-pageThree-2 .section-review .review-item .line-absolute {
+    display: block;
     position: absolute;
     bottom: 0;
   }
