@@ -1,11 +1,11 @@
-.tc-v2-region-hero-9{
-    background-color: #000;
+.tc-v2-region-pageTwo-9{
     padding: 0 6.25em;
+    background-color: #F5F6F8;
     .section-footer{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-top: 1px solid rgba(18, 18, 18, 0.1);
         padding-top: 3.125em;
         padding-bottom: 3.125em;
         margin-top: 3.125em;
@@ -24,7 +24,7 @@
             .copyright{
                 position: relative;
                 .builder-v2-widget{
-                    color: #B1B1B1;
+                    color: #121212;
                     font-size: .75em;
                     letter-spacing: .3px;
                     p{
@@ -50,15 +50,14 @@
 }
 
 @media (max-width: 576px){
-    .tc-v2-region-hero-9{
-        background-color: #000;
+    .tc-v2-region-pageTwo-9{
         position: relative;
         padding: 0;
         .section-footer{
             flex-direction: column;
             align-items: flex-start;
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid rgba(18, 18, 18, 0.1);
+            border-bottom: 1px solid rgba(18, 18, 18, 0.1);
             padding-top: 1.25em;
             margin-bottom: 1.25em;
             padding-bottom: 0;

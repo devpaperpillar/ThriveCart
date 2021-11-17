@@ -1,0 +1,101 @@
+.tc-v2-region-pageThree-3{
+    padding-top: 5em;
+    p{
+        margin: 0;
+    }
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            width: 38.75em;
+            .builder-v2-widget{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+        .right{
+            width: 31.25em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    font-weight: 700;
+                }
+            }
+            .description{
+                margin-top: 1.875em;
+                .builder-v2-widget{
+                    font-size: .875em;
+                    letter-spacing: .3px;
+                }
+            }
+            .button{
+                margin-top: 2em;
+                .builder-v2-widget{
+                    button{
+                        font-size: 1em;
+                        letter-spacing: .5px;
+                        background-color: #1E717C;
+                        border-radius: 50em;
+                        border: none;
+                        padding: 1.25em 4.375em;
+                        color: #FFF;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageThree-3{
+        padding-top: 0;
+        width: 100%;
+        overflow: hidden;
+        p{
+            margin: 0;
+        }
+        .section-grid{
+            flex-direction: column-reverse;
+            .left{
+                width: 100%;
+                margin-top: 2.5em;
+                .builder-v2-widget{
+                    width: calc(100% + 1.8em);
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+    
+            .right{
+                width: 100%;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                        font-weight: 700;
+                    }
+                }
+                .description{
+                    margin-top: 1.25em;
+                }
+                .button{
+                    margin-top: 2em;
+                    .builder-v2-widget{
+                        button{
+                            padding: 1.25em 0;
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+}

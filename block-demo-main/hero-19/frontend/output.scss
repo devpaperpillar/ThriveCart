@@ -1,0 +1,269 @@
+.tc-v2-region-pageThree-1{
+    background-color: #D9E8EA;
+    position: relative;
+    height: 49em;
+    p{
+        margin: 0;
+    }
+    .absolute-5{
+        position: absolute;
+        right: 0;
+        bottom: 0em;
+        z-index: 1;
+        height: 5.18em;
+        width: 100%;
+        background-color: #fff;
+        .builder-v2-widget{
+            width: 100%;
+            position: relative;
+            top: -.82em;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .section-logo{
+        margin-bottom: 1.25em;
+        .builder-v2-widget{
+            height: 1em;
+            img{
+                height: 100%;
+            }
+        }
+    }
+
+    .section-hero{
+        display: flex;
+        align-items: center;
+        position: relative;
+        .hero-left{
+            width: 24.625em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    font-weight: 700;
+                    position: relative;
+                    z-index: 99;
+                    p{
+                        span{
+                            color: #fff;
+                            position: relative;
+                        }
+                        .builder-v2-widget-absolute{
+                            position: absolute;
+                            left: -.3em;
+                            top: -.2em;
+                            width: calc(100% + .5em);
+                            z-index: -1;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .description{
+                margin-top: 1.875em;
+                .builder-v2-widget{
+                    font-size: .875em;
+                    letter-spacing: .3px;
+                }
+            }
+            .button{
+                margin-top: 2em;
+                .builder-v2-widget{
+                    button{
+                        font-size: 1em;
+                        letter-spacing: .5px;
+                        background-color: #1E717C;
+                        border-radius: 50em;
+                        border: none;
+                        padding: 1.25em 4.375em;
+                        color: #FFF;
+                        font-weight: 600;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .hero-right{
+            width: 41.25em;
+            position: relative;
+            z-index: 99;
+            .image{
+                .builder-v2-widget{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+            .absolute-1{
+                position: absolute;
+                left: 14em;
+                bottom: 3.5em;
+                z-index: -1;
+                .builder-v2-widget{
+                    width: 9.375em;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+            .absolute-2{
+                position: absolute;
+                right: 2.5em;
+                top: 1.5em;
+                z-index: -1;
+                .builder-v2-widget{
+                    height: 7.1875em;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+
+            .absolute-3{
+                position: absolute;
+                right: -10.5em;
+                top: 15.5em;
+                z-index: -1;
+                .builder-v2-widget{
+                    height: 7.75em;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+
+            .absolute-4{
+                position: absolute;
+                right: -11.5em;
+                top: 21.5em;
+                z-index: -1;
+                .builder-v2-widget{
+                    height: 20.8125em;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageThree-1{
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 5em;
+    
+        .section-logo{
+            margin-bottom: 1.25em;
+            padding-bottom: 1.25em;
+            border-bottom: 1px solid #BED5D8;
+            width: calc(100% + 11%);
+            margin-left: -5.5%;
+            text-align: center;
+        }
+    
+        .section-hero{
+            flex-direction: column;
+            .hero-left{
+                width: 100%;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                        font-weight: 700;
+                        position: relative;
+                        z-index: 99;
+                        color: #121212;
+                        p{
+                            span{
+                                color: #121212;
+                            }
+                            .builder-v2-widget-absolute{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                .description{
+                    margin-top: 1.25em;
+                }
+                .button{
+                    margin-top: 2em;
+                    .builder-v2-widget{
+                        button{
+                            padding: 1.25em 0;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+    
+            .hero-right{
+                width: 100%;
+                margin-top: 3.75em;
+                .image{
+                    .builder-v2-widget{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+    
+                .absolute-1{
+                    left: 8em;
+                    bottom: 2em;
+                    z-index: 1;
+                    .builder-v2-widget{
+                        width: 3.99em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+    
+                .absolute-2{
+                    right: 1.2em;
+                    top: 2em;
+                    z-index: -1;
+                    .builder-v2-widget{
+                        height: 3.1875em;
+                        img{
+                            height: 100%;
+                        }
+                    }
+                }
+    
+                .absolute-3{
+                    right: -5em;
+                    top: 6em;
+                    .builder-v2-widget{
+                        height: 4.75em;
+                    }
+                }
+    
+                .absolute-4{
+                    right: -6.5em;
+                    top: 11em;
+                    .builder-v2-widget{
+                        height: 11.8125em;
+                    }
+                }
+    
+            }
+    
+        }
+    }
+
+}

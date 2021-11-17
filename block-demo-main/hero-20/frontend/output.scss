@@ -1,0 +1,122 @@
+.tc-v2-region-pageThree-2{
+
+    p{
+        margin: 0;
+    }
+
+    .section-title{
+        width: 28.5625em;
+        .builder-v2-widget{
+            font-size: 3.125em;
+            font-weight: 700;
+            color: #121212;
+        }
+    }
+
+    .section-review{
+        display: flex;
+        grid-gap: 5.625em;
+        margin-top: 3.125em;
+        .review-item{
+            .star{
+                width: 7.785em;
+                .builder-v2-widget{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .description{
+                margin-top: 1.25em;
+                .builder-v2-widget{
+                    font-size: 1.125em;
+                    letter-spacing: .35px;
+                    color: #404852;
+                    opacity: .7;
+                }
+            }
+            .profile{
+                display: flex;
+                margin-top: 1.25em;
+                .image{
+                    margin-right: .625em;
+                    .builder-v2-widget{
+                        width: 2.5em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .text{
+                    .name{
+                        .builder-v2-widget{
+                            font-size: 0.81em;
+                            color: #404852;
+                        }
+                    }
+                    .title{
+                        .builder-v2-widget{
+                            font-size: 0.75em;
+                            color: #404852;
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+            .line-absolute{
+                display: none;
+            }
+        }
+    }
+
+    .line{
+        margin-top: 5em;
+        .builder-v2-widget{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageThree-2{
+
+        .section-title{
+            width: 100%;
+            .builder-v2-widget{
+                font-size: 1.875em;
+            }
+        }
+    
+        .section-review{
+            flex-direction: column;
+            grid-gap: 2em;
+            margin-top: 2.5em;
+            .review-item{
+                padding-bottom: 1.6875em;
+                position: relative;
+                .line-absolute{
+                    position: absolute;
+                    bottom: 0;
+                    .builder-v2-widget{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .line{
+            display: none;
+        }
+    
+    }
+
+}
