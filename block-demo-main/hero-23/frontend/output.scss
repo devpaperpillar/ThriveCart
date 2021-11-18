@@ -1,0 +1,162 @@
+.tc-v2-region-pageThree-5{
+    background-color: #F5F6F8;
+    p{
+        margin: 0;
+    }
+
+    .section-line{
+        .builder-v2-widget{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .section-grid{
+        margin-top: 5em;
+        display: flex;
+        justify-content: space-between;
+        .section-left{
+            width: 32.125em;
+            .section-title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    font-weight: 700;
+                }
+            }
+
+            .section-image{
+                margin-top: 1em;
+                .builder-v2-widget{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .section-right{
+            &-list{
+                padding: 0;
+                list-style: none;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-row-gap: 1.25em;
+                grid-column-gap: 4.37em;
+                .list-content{
+                    display: flex;
+                    align-items: center;
+                    .list-check{
+                        width: 1em;
+                        margin-right: 1.25em;
+                        .builder-v2-widget{
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .list-text{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            letter-spacing: .5px;
+                            color: #121212;
+                            opacity: .7;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-image-mobile{
+            display: none;
+            margin-top: 1em;
+            .builder-v2-widget{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageThree-5{
+        .section-line{
+            display: none;
+        }
+    
+        .section-grid{
+            margin-top: 0;
+            flex-direction: column;
+            .section-left{
+                width: 100%;
+                .section-title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                        line-height: 1.3em;
+                    }
+                }
+    
+                .section-image{
+                    display: none;
+                }
+            }
+    
+            .section-right{
+                margin-top: 2.5em;
+                &-list{
+                    grid-row-gap: 0;
+                    grid-column-gap: 0;
+                    li{
+                        display: none;
+                    }
+                    li:nth-child(1), li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6), li:nth-child(7), li:nth-child(8){
+                        display: block;
+                        border-top: 1px solid #DEDEDE;
+                        padding-right: .625em;
+                        padding-top: 1.5em;
+                        padding-bottom: 1.5em;
+                    }
+
+                    li:nth-child(2), li:nth-child(4), li:nth-child(6), li:nth-child(8){
+                        padding-right: 0;
+                        padding-left: .625em;
+                    }
+                    .list-content{
+                        display: flex;
+                        align-items: flex-start;
+                        .list-check{
+                            width: 1em;
+                            margin-right: .5em;
+                            .builder-v2-widget{
+                                width: .7em;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                        .list-text{
+                            .builder-v2-widget{
+                                font-size: .875em;
+                            }
+                        }
+                    }
+                }
+            }  
+            .section-image-mobile{
+                display: block;
+            }
+        }
+
+    }
+
+}
