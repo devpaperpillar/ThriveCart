@@ -1,0 +1,65 @@
+.tc-v2-region-pageFour-9{
+    padding: 5em 0;
+    p{
+        margin: 0;
+    }
+    .region-wrap{
+        max-width: 63.75em;
+        margin: 0 auto;
+    }
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .section-left{
+            width: 26.9365em;
+            .builder-v2-widget{
+                font-size: 1em;
+                letter-spacing: .3px;
+                color: #121212;
+            }
+        }
+        .section-right{
+            .builder-v2-widget{
+                width: 31.25em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageFour-9{
+        padding: 0;
+        p{
+            margin: 0;
+        }
+        .section-grid{
+            display: flex;
+            flex-direction: column;
+            .section-left{
+                width: 100%;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .3px;
+                    color: #121212;
+                }
+            }
+            .section-right{
+                margin: 2.5em 0 0;
+                .builder-v2-widget{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    
+    }
+
+}

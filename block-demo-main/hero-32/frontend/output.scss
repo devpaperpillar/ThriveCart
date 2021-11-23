@@ -1,0 +1,104 @@
+.tc-v2-region-pageFour-6{
+    p{
+        margin: 0;
+    }
+    .section-title{
+        width: 46.875em;
+        margin: 0 auto;
+        .builder-v2-widget{
+            font-size: 2.5em;
+            color: #121212;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+    .section-description{
+        margin: 1.5em 0 3.75em;
+        .builder-v2-widget{
+            font-size: 1.5em;
+            color: #121212;
+            opacity: .8;
+            text-align: center;
+        }
+    }
+
+    .section-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2.625em;
+        .item{
+            background: #FFF;
+            box-shadow: 0px 30px 50px rgba(34, 47, 62, 0.1);
+            border-radius: .625em;
+            padding: 1.75em 1.25em;
+            .icon{
+                .builder-v2-widget{
+                    width: 4.375em;
+                    margin: 0 auto;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .text{
+                margin-top: 1em;
+                .builder-v2-widget{
+                    text-align: center;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px){
+    .tc-v2-region-pageFour-6{
+        .section-title{
+            width: 100%;
+            .builder-v2-widget{
+                font-size: 1.875em;
+                color: #121212;
+                text-align: left;
+            }
+        }
+        .section-description{
+            margin: 1.25em 0 2.5em;
+            padding-bottom: 1.875em;
+            border-bottom: 1px solid #DEDEDE;
+            width: 100%;
+            .builder-v2-widget{
+                font-size: 1em;
+                opacity: .8;
+                text-align: left;
+            }
+        }
+    
+        .section-grid{
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 2.5em;
+            .item{
+                background: #FFF;
+                box-shadow: none;
+                border-radius: none;
+                padding: 0;
+                display: flex;
+                .icon{
+                    .builder-v2-widget{
+                        width: 4.375em;
+                        margin-right: 1.25em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .text{
+                    margin-top: .5em;
+                    .builder-v2-widget{
+                        text-align: left;
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+    }
+}

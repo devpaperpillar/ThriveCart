@@ -1,0 +1,118 @@
+.tc-v2-region-pageFour-8{
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 5em;
+    p{
+        margin: 0;
+    }
+    .background{
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        .builder-v2-widget{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+            .mobile{
+                display: none;
+            }
+        }
+    }
+
+    .section-sub-title{
+        width: 37.125em;
+        margin: 0 auto;
+        .builder-v2-widget{
+            font-size: 1.5em;
+            letter-spacing: 1px;
+            text-align: center;
+            color: #FFF;
+            position: relative;
+            &-absolute{
+                position: absolute;
+                bottom: -1em;
+                left: 0;
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .section-title{
+        width: 37.75em;
+        margin: 1.5em auto 0;
+        .builder-v2-widget{
+            color: #FFF;
+            font-size: 2.5em;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .section-image{
+        max-width: 63.75em;
+        margin: 3.75em auto 0;
+        .builder-v2-widget{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+
+@media(max-width: 576px){
+
+    .tc-v2-region-pageFour-8{
+        padding-top: 0;
+        .background{
+            .builder-v2-widget{
+                img{
+                    display: none;
+                }
+                .mobile{
+                    display: block;
+                }
+            }
+        }
+    
+        .section-sub-title{
+            width: 100%;
+            .builder-v2-widget{
+                font-size: 1.25em;
+                text-align: left;
+                &-absolute{
+                    display: none;
+                }
+            }
+        }
+    
+        .section-title{
+            width: 100%;
+            margin: 1.5em auto 0;
+            .builder-v2-widget{
+                color: #FFF;
+                font-size: 1.875em;
+                text-align: left;
+                p{
+                    span{
+                        white-space: pre;
+                    }
+                }
+            }
+        }
+    
+        .section-image{
+            margin: 1.875em auto 0;
+        }
+    
+    }
+
+}
