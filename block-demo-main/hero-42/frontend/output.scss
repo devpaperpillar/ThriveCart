@@ -1,4 +1,4 @@
-.tc-v2-region-pageFour-14{
+.tc-v2-region-pageFour-16{
     position: relative;
     max-width: 1440px;
     margin: 0 auto;
@@ -9,20 +9,11 @@
     .background{
         position: absolute;
         z-index: -1;
-        top: 0;
-        background-color: #F5F6F8;
+        bottom: 0;
+        background-color: #F3F0F4;
         width: 100%;
         right: 0;
         height: 100%;
-        .builder-v2-widget{
-            width: 100%;
-            img{
-                width: 100%;
-            }
-            .mobile{
-                display: none;
-            }
-        }
     }
 
     .section-grid{
@@ -50,16 +41,18 @@
 
         .section-right{
             .title{
+                width: 36.875em;
                 .builder-v2-widget{
                     font-size: 2.5em;
                     font-weight: 700;
-                    color: #0F9B9B;
+                    letter-spacing: -1px;
                     p{
                         span{
+                            color: #A31157;
                             position: relative;
                             .builder-v2-widget-absolute{
                                 position: absolute;
-                                bottom: -.5em;
+                                bottom: -.4em;
                                 left: 0;
                                 width: 100%;
                                 img{
@@ -71,27 +64,17 @@
                 }
             }
 
-            .sub-title{
-                width: 32.75em;
-                margin-top: 1.5em;
-                .builder-v2-widget{
-                    font-size: 1.25em;
-                    color: #FFF;
-                }
-            }
-
             .description{
-                width: 41.25em;
+                width: 35.875em;
                 margin-top: 1.25em;
                 .builder-v2-widget{
-                    font-size: 1em;
-                    color: #FFF;
-                    opacity: .8;
+                    font-size: 1.125em;
+                    letter-spacing: .3px;
                 }
             }
             
             .button{
-                margin-top: 2.3125em;
+                margin-top: 1.25em;
                 .builder-v2-widget{
                     button{
                         background: #5243AA;
@@ -125,12 +108,15 @@
                         margin-left: 1em;
                         .builder-v2-widget{
                             font-size: 1.25em;
-                            color: #999999;
+                            color: #676464;
                             letter-spacing: 1px;
                             p{
                                 span{
-                                    color: #FFF;
                                     font-weight: 700;
+                                }
+                                .last{
+                                    font-weight: normal;
+                                    white-space: pre;
                                 }
                             }
                         }
@@ -142,22 +128,10 @@
 }
 
 @media(max-width: 576px){
-    .tc-v2-region-pageFour-14{
-        overflow: hidden;
+    .tc-v2-region-pageFour-16{
         padding: 0;
         .background{
-            height: 100%;
-            .builder-v2-widget{
-                width: 100%;
-                img{
-                    display: none;
-                    height: 100%;
-                    width: 100%;
-                }
-                .mobile{
-                    display: block;
-                }
-            }
+            width: 100%;
         }
     
         .section-grid{
@@ -185,18 +159,12 @@
                         letter-spacing: .3px;
                         p{
                             span{
-                                .builder-v2-widget-absolute{
-                                    display: none;
-                                }
+                                color: #A31157;
                             }
                         }
                     }
                 }
-
-                .sub-title{
-                    width: 100%;
-                }
-
+    
                 .description{
                     width: 100%;
                     .builder-v2-widget{
@@ -219,7 +187,7 @@
                     }
                 }
                 .grid{
-                    margin-top: 2.5em;
+                    margin-top: 1.25em;
                     display: grid;
                     grid-template-columns: repeat(1, 1fr);
                     grid-gap: 1.25em;
