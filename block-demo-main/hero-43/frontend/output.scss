@@ -1,0 +1,165 @@
+.tc-v2-region-pageFour-17{
+    padding: 5em 0;
+    p{
+        margin: 0;
+    }
+
+    .section-title{
+        max-width: 45.625em;
+        margin: 0 auto 7.5em;
+        .builder-v2-widget{
+            font-size: 2.5em;
+            font-weight: 700;
+            text-align: center;
+            p{
+                span{
+                    position: relative;
+                    color: #49B2B3;
+                }
+            }
+        }
+    }
+
+    .section-box{
+        position: relative;
+        max-width: 63.75em;
+        margin: 0 auto 2.5em;
+        display: flex;
+        justify-content: space-between;
+        background: #FFFFFF;
+        box-shadow: 0px 30px 50px rgba(34, 47, 62, 0.1);
+        border-radius: .625em;
+        padding: 5em 2.5em 2.5em;
+        .absolute{
+            position: absolute;
+            width: 30.3125em;
+            z-index: 1;
+            padding: 8px 2.5em 7px;
+            left: 0;
+            top: 2.25em;
+            .text{
+                .builder-v2-widget{
+                    font-size: 1.25em;
+                    font-weight: 600;
+                    color: #FFFFFF;
+                }
+            }
+            .background{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                z-index: -1;
+                .builder-v2-widget{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .left{
+            width: 34.75em;
+            margin-top: 2em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 1.5em;
+                    font-weight: 600;
+                }
+            }
+            .color{
+                margin: 1em 0 1.5em;
+                .builder-v2-widget{
+                    color:#49B2B3;
+                }
+            }
+            .description{
+                .builder-v2-widget{
+                    font-size: 1em;
+                    color: #121212;
+                    opacity: .8;
+                }
+            }
+        }
+        .right{
+            .builder-v2-widget{
+                width: 19.125em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageFour-17{
+        padding: 0;
+        p{
+            margin: 0;
+        }
+    
+        .section-title{
+            max-width: 100%;
+            margin: 0 auto 2.5em;
+            .builder-v2-widget{
+                font-size: 1.875em;
+                text-align: left;
+            }
+        }
+    
+        .section-box{
+            overflow: hidden;
+            margin: 0 auto 1.25em;
+            flex-direction: column-reverse;
+            padding: 6.25em 1.25em 2.125em;
+            .absolute{
+                width: 100%;
+                z-index: 1;
+                padding: .625em 1.25em;
+                background-color: #E24538;
+                left: 0;
+                top: 0;
+                .text{
+                    .builder-v2-widget{
+                        font-size: 1em;
+                    }
+                }
+                .background{
+                    display: none;
+                }
+            }
+            .left{
+                width: 100%;
+                margin-top: 1.6875em;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.125em;
+                        font-weight: 600;
+                    }
+                }
+                .color{
+                    margin: .75em 0 1.25em;
+                }
+                .description{
+                    .builder-v2-widget{
+                        font-size: .875em;
+                        letter-spacing: .3px;
+                    }
+                }
+            }
+            .right{
+                .builder-v2-widget{
+                    width: 10em;
+                    margin: 0 auto;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    
+    }
+
+}

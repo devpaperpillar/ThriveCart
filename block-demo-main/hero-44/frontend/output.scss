@@ -1,0 +1,137 @@
+.tc-v2-region-pageFour-18{
+    padding: 5em 0;
+    background: #040E22;
+    p{
+        margin: 0;
+    }
+
+    .section-title{
+        width: 43.9375em;
+        margin: 0 auto;
+        .builder-v2-widget{
+            font-size: 3.125em;
+            letter-spacing: -1px;
+            text-align: center;
+            font-weight: 700;
+            color: #FFFFFF;
+            p{
+                span{
+                    position: relative;
+                    color: #0F9B9B;
+                    .builder-v2-widget-absolute{
+                        position: absolute;
+                        bottom: -.4em;
+                        left: -.5em;
+                        width: calc(100% + 2em);
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-list{
+        max-width: 63.75em;
+        margin: 3.75em auto 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        .item{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            .text{
+                display: flex;
+                .check{
+                    margin-right: 1.25em;
+                    .builder-v2-widget{
+                        width: 1.125em;
+                        position: relative;
+                        top: .5em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .name{
+                    .builder-v2-widget{
+                        color: #ffffff;
+                        font-size: 1.375em;
+                    }
+                }
+            }
+            .price{
+                .builder-v2-widget{
+                    font-size: 1.375em;
+                    color: #0F9B9B;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageFour-18{
+        padding: 0;
+        p{
+            margin: 0;
+        }
+    
+        .section-title{
+            width: 100%;
+            margin: 0 auto;
+            .builder-v2-widget{
+                font-size: 1.875em;
+                letter-spacing: .3px;
+                text-align: left;
+                line-height: 1.3em;
+                p{
+                    span{
+                        position: relative;
+                        color: #0F9B9B;
+                        .builder-v2-widget-absolute{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .section-list{
+            margin-top: 2.5em;
+            .item{
+                display: flex;
+                justify-content: space-between;
+                padding-top: 1.25em;
+                padding-bottom: 1.25em;
+                .text{
+                    max-width: 12.625em;
+                    .check{
+                        margin-right: .5em;
+                        .builder-v2-widget{
+                            width: .8em;
+                            position: relative;
+                            top: .2em;
+                        }
+                    }
+                    .name{
+                        .builder-v2-widget{
+                            color: #ffffff;
+                            font-size: .875em;
+                        }
+                    }
+                }
+                .price{
+                    .builder-v2-widget{
+                        font-size: .875em;
+                        color: #0F9B9B;
+                    }
+                }
+            }
+        }
+    }
+
+}
