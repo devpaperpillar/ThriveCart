@@ -6362,6 +6362,525 @@ body {
     margin: 0 0 0.5em;
   }
 }
+.tc-v2-region-pageFive-6 {
+  padding: 5em 0;
+  background-color: rgba(68, 57, 141, 0.05);
+}
+.tc-v2-region-pageFive-6 p {
+  margin: 0;
+}
+.tc-v2-region-pageFive-6 .section-title {
+  width: 50em;
+  margin: 0 auto;
+}
+.tc-v2-region-pageFive-6 .section-title .builder-v2-widget {
+  font-size: 3.125em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.tc-v2-region-pageFive-6 .section-grid {
+  margin-top: 5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2.5em;
+}
+.tc-v2-region-pageFive-6 .section-grid .item {
+  padding: 2.5em;
+  background-color: #FFFFFF;
+  box-shadow: 0px 30px 50px rgba(34, 47, 62, 0.1);
+}
+.tc-v2-region-pageFive-6 .section-grid .item .number .builder-v2-widget {
+  font-size: 2.5em;
+  line-height: 1.2em;
+  color: #5243AA;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+.tc-v2-region-pageFive-6 .section-grid .item .title {
+  margin-top: 1.25em;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid #DEDEDE;
+}
+.tc-v2-region-pageFive-6 .section-grid .item .title .builder-v2-widget {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #121212;
+}
+.tc-v2-region-pageFive-6 .section-grid .item .description {
+  margin-top: 1.25em;
+}
+.tc-v2-region-pageFive-6 .section-grid .item .description .builder-v2-widget {
+  font-size: 1em;
+  letter-spacing: 0.3px;
+  color: #121212;
+}
+
+@media (max-width: 576px) {
+  .tc-v2-region-pageFive-6 {
+    padding: 0;
+  }
+  .tc-v2-region-pageFive-6 .section-title {
+    width: 100%;
+  }
+  .tc-v2-region-pageFive-6 .section-title .builder-v2-widget {
+    font-size: 1.875em;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  .tc-v2-region-pageFive-6 .section-grid {
+    margin-top: 2.5em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.25em;
+  }
+  .tc-v2-region-pageFive-6 .section-grid .item {
+    padding: 1.25em;
+  }
+  .tc-v2-region-pageFive-6 .section-grid .item .description .builder-v2-widget {
+    font-size: 0.875em;
+  }
+}
+.tc-v2-region-pageFive-7 {
+  background-color: #44398D;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-discount .discount-background {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.875em 1.5em;
+  border-radius: 12.5em;
+  max-width: 29.125em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-discount .discount-image {
+  width: 1.5em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-discount .discount-image .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-discount .discount-image .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-discount .discount-text {
+  margin-left: 1em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-discount .discount-text .builder-v2-widget {
+  font-size: 1em;
+  line-height: 1.625em;
+  letter-spacing: 0.3px;
+  color: #fff;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-discount .discount-text .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1.875em;
+  justify-content: space-between;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left {
+  width: 34.25em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-title {
+  padding-right: 6em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-title .builder-v2-widget {
+  font-size: 3.125em;
+  line-height: 1.3em;
+  font-weight: 700;
+  color: #fff;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-description {
+  margin-top: 0.9em;
+  padding-right: 5.2em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-description .builder-v2-widget {
+  font-size: 1em;
+  line-height: 1.5625em;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-description .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1.5em;
+  grid-column-gap: 4.37em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content {
+  display: flex;
+  align-items: center;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-check {
+  width: 1em;
+  margin-right: 1.25em;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-text .builder-v2-widget {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-text .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageFive-7 .section-information p {
+  margin: 0;
+}
+.tc-v2-region-pageFive-7 .section-information .background {
+  background-color: #fff;
+  padding: 3.75em 3.75em 1.875em;
+  box-shadow: 0px 30px 100px rgba(38, 26, 25, 0.15);
+  border-radius: 0.5em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .title .builder-v2-widget {
+  font-size: 1.5em;
+  letter-spacing: 0.3px;
+  color: #121212;
+  font-weight: 600;
+}
+.tc-v2-region-pageFive-7 .section-information .background .grid {
+  margin-top: 2.875em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3.75em;
+  grid-row-gap: 2.875em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .grid .grid {
+  margin: 0;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.25em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .grid .label {
+  margin-bottom: 0.75em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .grid .label .builder-v2-widget {
+  font-size: 0.875em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .grid .box-input {
+  border: 1px solid #DEE5ED;
+  padding: 1.0625em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .grid .box-input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.875em;
+  letter-spacing: 0.3px;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment {
+  margin-top: 3.75em;
+  padding-top: 2.1875em;
+  border-top: 1px solid #DEE5ED;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .left {
+  display: flex;
+  align-items: center;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .left .item {
+  width: 16.4375em;
+  border-right: 1px solid #DEE5ED;
+  margin-right: 1.875em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .left .item .title {
+  margin-bottom: 0.375em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .left .item .title .builder-v2-widget {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .left .item .description .builder-v2-widget {
+  font-size: 0.875em;
+  letter-spacing: 0.3px;
+  color: #1C2439;
+  opacity: 0.7;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .left .usd .builder-v2-widget {
+  font-size: 2.5em;
+  color: #5243AA;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .right .builder-v2-widget {
+  width: 28.125em;
+}
+.tc-v2-region-pageFive-7 .section-information .background .payment .column .right .builder-v2-widget button {
+  background: #FF9900;
+  font-size: 1em;
+  letter-spacing: 1.14005px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  padding: 1.375em;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .tc-v2-region-pageFive-7 {
+    position: relative;
+  }
+  .tc-v2-region-pageFive-7 .region-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-discount .discount-background {
+    align-items: flex-start;
+    padding: 0.875em 1.25em;
+    border-radius: 0em;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-discount .discount-image {
+    margin-top: 0.2em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid {
+    padding-top: 6em;
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left {
+    width: calc(100% - 2em);
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-title {
+    padding-top: 4.375em;
+    padding-right: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-title .builder-v2-widget {
+    font-size: 1.875em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-description {
+    margin-top: 1.25em;
+    padding-right: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-description .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-left-description .builder-v2-widget p {
+    margin: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right {
+    margin-top: 2.5em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list {
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list li {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-right: 0.625em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list li:nth-child(2), .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list li:nth-child(4), .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list li:nth-child(6), .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list li:nth-child(8) {
+    padding-right: 0;
+    padding-left: 0.625em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content {
+    display: flex;
+    align-items: flex-start;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-check {
+    width: 1em;
+    margin-right: 0.5em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget {
+    width: 0.7em;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget img {
+    width: 100%;
+  }
+  .tc-v2-region-pageFive-7 .section-lifetime-grid .section-grid-right-list .list-content .list-text .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .region-wrap {
+    width: 100%;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background {
+    background-color: #fff;
+    padding: 2.5em 1.25em;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .title .builder-v2-widget {
+    font-size: 1.25em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .grid {
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.25em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .grid .grid {
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.25em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .grid .label {
+    margin-bottom: 0.25em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .grid .box-input {
+    border-radius: 0.5em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment {
+    margin-top: 3.75em;
+    padding-top: 2.1875em;
+    border-top: 1px solid #DEE5ED;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column {
+    display: block;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column .left {
+    display: block;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column .left .item {
+    width: 100%;
+    border-right: none;
+    margin-right: 0;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column .left .item .title {
+    margin-bottom: 1.25em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column .left .usd {
+    margin-top: 2em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column .right {
+    margin-top: 1.5em;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column .right .builder-v2-widget {
+    width: 100%;
+  }
+  .tc-v2-region-pageFive-7 .section-information .background .payment .column .right .builder-v2-widget button {
+    padding: 1em;
+  }
+}
+.tc-v2-region-pageFive-8 {
+  background-color: #F5F6F8;
+}
+.tc-v2-region-pageFive-8 p {
+  margin: 0;
+}
+.tc-v2-region-pageFive-8 .section-title {
+  width: 19.625em;
+}
+.tc-v2-region-pageFive-8 .section-title .builder-v2-widget {
+  font-size: 2.1875em;
+  line-height: 1.3em;
+  font-weight: 600;
+}
+.tc-v2-region-pageFive-8 .section-box {
+  margin-top: 2.5em;
+  display: flex;
+  grid-gap: 2.5em;
+}
+.tc-v2-region-pageFive-8 .section-box .left .item {
+  background-color: #fff;
+  box-shadow: 0px 20px 40px rgba(64, 72, 82, 0.1);
+  border-radius: 0.75em;
+  padding: 2.5em;
+  margin-bottom: 2.5em;
+}
+.tc-v2-region-pageFive-8 .section-box .left .item .title .builder-v2-widget {
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #121212;
+}
+.tc-v2-region-pageFive-8 .section-box .left .item .description {
+  margin-top: 1.25em;
+}
+.tc-v2-region-pageFive-8 .section-box .left .item .description .builder-v2-widget {
+  font-size: 0.875em;
+  columns: #121212;
+  opacity: 0.7;
+}
+.tc-v2-region-pageFive-8 .section-box .right .item {
+  background-color: #fff;
+  box-shadow: 0px 20px 40px rgba(64, 72, 82, 0.1);
+  border-radius: 0.75em;
+  padding: 2.5em;
+  margin-bottom: 2.5em;
+}
+.tc-v2-region-pageFive-8 .section-box .right .item .title .builder-v2-widget {
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #121212;
+}
+.tc-v2-region-pageFive-8 .section-box .right .item .description {
+  margin-top: 1.25em;
+}
+.tc-v2-region-pageFive-8 .section-box .right .item .description .builder-v2-widget {
+  font-size: 0.875em;
+  columns: #121212;
+  opacity: 0.7;
+}
+
+@media (max-width: 576px) {
+  .tc-v2-region-pageFive-8 .section-title {
+    width: 100%;
+  }
+  .tc-v2-region-pageFive-8 .section-title .builder-v2-widget {
+    font-size: 1.875em;
+    line-height: 1.2em;
+  }
+  .tc-v2-region-pageFive-8 .section-box {
+    margin-top: 1.25em;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.25em;
+  }
+  .tc-v2-region-pageFive-8 .section-box .left .item {
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(64, 72, 82, 0.1);
+    border-radius: 0.75em;
+    padding: 1.25em;
+    margin-bottom: 1.25em;
+  }
+  .tc-v2-region-pageFive-8 .section-box .left .item .title .builder-v2-widget {
+    font-size: 1em;
+  }
+  .tc-v2-region-pageFive-8 .section-box .left .item .description {
+    margin-top: 1.25em;
+  }
+  .tc-v2-region-pageFive-8 .section-box .right .item {
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(64, 72, 82, 0.1);
+    border-radius: 0.75em;
+    padding: 1.25em;
+    margin-bottom: 1.25em;
+  }
+  .tc-v2-region-pageFive-8 .section-box .right .item .title .builder-v2-widget {
+    font-size: 1em;
+  }
+  .tc-v2-region-pageFive-8 .section-box .right .item .description {
+    margin-top: 1.25em;
+  }
+}
 .tc-v2-region-hero-6 .section-about-title {
   width: 44em;
   margin: 0 0 3.75em;
