@@ -1,0 +1,126 @@
+.tc-v2-region-pageFive-3{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 5em 0;
+    position: relative;
+    p{
+        margin: 0;
+    }
+
+    .background{
+        z-index: -1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 82.5em;
+        height: 25em;
+        background: #F5F6F8;
+    }
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        .section-title{
+            width: 36.5625em;
+            .builder-v2-widget{
+                font-size: 3.125em;
+                font-weight: 700;
+            }
+        }
+
+        .section-description{
+            width: 31.25em;
+            .builder-v2-widget{
+                font-size: 1em;
+                letter-spacing: .3px;
+            }
+        }
+    }
+
+    .section-image{
+        margin: 6.625em auto 0;
+        width: 60em;
+        height: 33.75em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .play{
+            .builder-v2-widget{
+                width: 6.25em;
+                img{
+                    width: 100%;
+                    border-radius: 50%;
+                    box-shadow: 0px 26.7474px 53.4948px rgba(64, 72, 82, 0.25);
+                }
+            }
+        }
+        .image{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+            .builder-v2-widget{
+                width: 100%;
+                img{
+                    width: 100%;
+                    box-shadow: 0px 40.1211px 93.6158px rgba(22, 16, 9, 0.4);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageFive-3{
+        padding: 0;
+    
+        .background{
+            z-index: -1;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 8.125em;
+            background: #F5F6F8;
+        }
+        .section-grid{
+            flex-direction: column;
+            .section-title{
+                width: 100%;
+                .builder-v2-widget{
+                    font-size: 1.875em;
+                    letter-spacing: .3px;
+                    line-height: 1.3em;
+                }
+            }
+    
+            .section-description{
+                width: 100%;
+                .builder-v2-widget{
+                    font-size: .875em;
+                }
+            }
+        }
+    
+        .section-image{
+            margin: 2.5em auto 0;
+            width: 100%;
+            height: 11.25em;
+            .play{
+                .builder-v2-widget{
+                    width: 3.75em;
+                }
+            }
+            .image{
+                .builder-v2-widget{
+                    img{
+                        box-shadow: 0px 20px 40px rgba(22, 16, 9, 0.2);
+                    }
+                }
+            }
+        }
+    }
+
+}
