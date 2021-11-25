@@ -1,0 +1,129 @@
+.tc-v2-region-pageSix-4{
+    padding: 5em 0;
+    overflow: hidden;
+    background-color: #F5F6F8;
+    p{
+        margin: 0;
+    }
+
+    .section-grid{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            position: relative;
+            z-index: 1;
+            right: -4em;
+            .builder-v2-widget{
+                max-width: 42.3125em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .right{
+            max-width: 26.25em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 2.5em;
+                    color: #121212;
+                    letter-spacing: .3px;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    p{
+                        span{
+                            color: #2813A4;
+                        }
+                    }
+                }
+            }
+
+            .description{
+                margin-top: 1.75em;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    opacity: .7;
+                    color: #121212;
+                    letter-spacing: .3px;
+                    p{
+                        span{
+                            color: #2813A4;
+                        }
+                    }
+                }
+            }
+
+            .button{
+                margin-top: 1.75em;
+                .builder-v2-widget{
+                    button{
+                        padding: 1.5em 1.5em;
+                        width: 20em;
+                        background: #FFCD00;
+                        font-size: 1em;
+                        font-weight: 600;
+                        color: #2813A4;
+                        letter-spacing: 1.14px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageSix-4{
+        padding: 0;
+
+        .section-grid{
+            flex-direction: column-reverse;
+            .left{
+                margin-top: 2.5em;
+                left: 0;
+                .builder-v2-widget{
+                    max-width: 42.3125em;
+                    img{
+                        width: calc(100% + 2em);
+                    }
+                }
+            }
+            .right{
+                max-width: 26.25em;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                        p{
+                            span{
+                                color: #2813A4;
+                            }
+                        }
+                    }
+                }
+    
+                .description{
+                    margin-top: 1.25em;
+                    .builder-v2-widget{
+                        font-size: .875em;
+                    }
+                }
+    
+                .button{
+                    margin-top: 2em;
+                    .builder-v2-widget{
+                        button{
+                            padding: 1.25em 1.25em;
+                            width: 100%;
+                            background: #FFCD00;
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

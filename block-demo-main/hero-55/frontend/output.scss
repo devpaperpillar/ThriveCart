@@ -1,0 +1,94 @@
+.tc-v2-region-pageSix-2{
+
+    p{
+        margin: 0;
+    }
+
+    .section-review{
+        display: flex;
+        grid-gap: 5.625em;
+        .review-item{
+            .star{
+                height: 1.25em;
+                .builder-v2-widget{
+                    height: 100%;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+            .description{
+                margin-top: 1.25em;
+                .builder-v2-widget{
+                    font-size: 1;
+                    letter-spacing: .35px;
+                    color: #404852;
+                }
+            }
+            .profile{
+                display: flex;
+                margin-top: 1.25em;
+                .image{
+                    margin-right: .625em;
+                    .builder-v2-widget{
+                        width: 2.5em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .text{
+                    .name{
+                        .builder-v2-widget{
+                            font-size: 0.81em;
+                            color: #404852;
+                        }
+                    }
+                    .title{
+                        .builder-v2-widget{
+                            font-size: 0.75em;
+                            color: #404852;
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+            .line-absolute{
+                display: none;
+            }
+        }
+    }
+
+    .line{
+        margin-top: 5em;
+        .builder-v2-widget{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageSix-2{
+
+        .section-review{
+            flex-direction: column;
+            grid-gap: 2em;
+            .review-item{
+                padding-bottom: 1.6875em;
+                position: relative;
+                border-bottom: 1px solid #DEDEDE;
+            }
+        }
+    
+        .line{
+            display: none;
+        }
+    
+    }
+
+}
