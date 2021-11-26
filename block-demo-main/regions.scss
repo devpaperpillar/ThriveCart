@@ -9793,6 +9793,185 @@
         }
     }
 }
+.tc-v2-region-pageSix-10{
+    padding: 5em;
+    p{
+        margin: 0;
+    }
+
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            position: relative;
+            z-index: 1;
+            .builder-v2-widget{
+                max-width: 43.9475em;
+                img{
+                    width: 100%;
+                }
+            }
+            .titik{
+                position: absolute;
+                right: -3em;
+                bottom: -2.7em;
+                z-index: -1;
+                width: 7.25em;
+            }
+        }
+        
+        .right{
+            max-width: 23.5em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 2.5em;
+                    font-weight: 600;
+                    line-height: 1.2em;
+                    color: #121212;
+                    p{
+                        span{
+                            color: #2813A4;
+                        }
+                    }
+                }
+            }
+
+            .description{
+                margin-top: 1.25em;
+                .builder-v2-widget{
+                    font-size: .875em;
+                    color: #121212;
+                    letter-spacing: .3px;
+                    opacity: .7;
+                }
+            }
+
+            .email{
+                margin-top: 2.5em;
+                display: flex;
+                align-items: center ;
+                .icon{
+                    margin-right: 1.25em;
+                    img{
+                        width: 3.75em;
+                    }
+                }
+                .text-title{
+                    .builder-v2-widget{
+                        font-size: 1.25em;
+                        font-weight: 500;
+                        color: #121212;
+                        letter-spacing: .3px;
+                    }
+                }
+    
+                .text-description{
+                    .builder-v2-widget{
+                        font-size: 1em;
+                        color: #121212;
+                        letter-spacing: .3px;
+                        opacity: .5;
+                    }
+                }
+            }
+
+            .phone{
+                margin-top: 1.75em;
+                display: flex;
+                align-items: center ;
+                .icon{
+                    margin-right: 1.25em;
+                    img{
+                        width: 3.75em;
+                    }
+                }
+                .text-title{
+                    .builder-v2-widget{
+                        font-size: 1.25em;
+                        font-weight: 500;
+                        color: #121212;
+                        letter-spacing: .3px;
+                    }
+                }
+    
+                .text-description{
+                    .builder-v2-widget{
+                        font-size: 1em;
+                        color: #121212;
+                        letter-spacing: .3px;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageSix-10{
+        padding: 0;
+    
+        .section-grid{
+            flex-direction: column-reverse;
+            .left{
+                margin-top: 2.5em;
+                .titik{
+                    display: none;
+                }
+            }
+            
+            .right{
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                    }
+                }
+    
+                .email{
+                    padding-bottom: 1.25em;
+                    border-bottom: 1px solid rgba(18, 18, 18, 0.2);
+                    .icon{
+                        img{
+                            width: 2.5em;
+                        }
+                    }
+                    .text-title{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                        }
+                    }
+        
+                    .text-description{
+                        .builder-v2-widget{
+                            font-size: .875em;
+                        }
+                    }
+                }
+    
+                .phone{
+                    margin-top: 1.25em;
+                    .icon{
+                        img{
+                            width: 2.5em;
+                        }
+                    }
+                    .text-title{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                        }
+                    }
+        
+                    .text-description{
+                        .builder-v2-widget{
+                            font-size: .875em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 .tc-v2-region-hero-7{
     background-color: #5243AA;
     .section-lifetime{
