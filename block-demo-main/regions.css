@@ -7998,6 +7998,619 @@ body {
     font-size: 0.875em;
   }
 }
+.tc-v2-region-pageSix-9 {
+  background-color: #2813A4;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-discount .discount-background {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.875em 1.5em;
+  border-radius: 12.5em;
+  max-width: 29.125em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-discount .discount-image {
+  width: 1.5em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-discount .discount-image .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-discount .discount-image .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-discount .discount-text {
+  margin-left: 1em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-discount .discount-text .builder-v2-widget {
+  font-size: 1em;
+  line-height: 1.625em;
+  letter-spacing: 0.3px;
+  color: #fff;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-discount .discount-text .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1.875em;
+  justify-content: space-between;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left {
+  width: 34.25em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-title .builder-v2-widget {
+  font-size: 3.125em;
+  line-height: 1.3em;
+  font-weight: 700;
+  color: #fff;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-description {
+  margin-top: 0.9em;
+  padding-right: 5.2em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-description .builder-v2-widget {
+  font-size: 1em;
+  line-height: 1.5625em;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-description .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1.5em;
+  grid-column-gap: 4.37em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content {
+  display: flex;
+  align-items: center;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-check {
+  width: 1em;
+  margin-right: 1.25em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-text .builder-v2-widget {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-text .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information {
+  padding-top: 5em;
+  position: relative;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .absolute {
+  position: absolute;
+  top: 2em;
+  right: 0;
+  width: 6.5625em;
+  right: -2em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .absolute .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .absolute .builder-v2-widget img {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-background {
+  background-color: #fff;
+  box-shadow: 0px 10px 50px rgba(34, 47, 62, 0.1);
+  border-radius: 0.5em;
+  padding: 1.25em 1.25em 1.25em 0;
+  display: flex;
+  align-items: center;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left {
+  padding: 1.25em 3.125em;
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top {
+  display: flex;
+  align-items: center;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number {
+  display: flex;
+  align-items: center;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .number {
+  border-radius: 50%;
+  background-color: #5243AA;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .number .builder-v2-widget {
+  font-size: 0.625em;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .number .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .description {
+  margin-left: 0.5em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .description .builder-v2-widget {
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #5243A9;
+  text-transform: capitalize;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .description .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top .passive {
+  margin-left: 2.75em;
+  opacity: 0.5;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top .passive .number {
+  background-color: transparent;
+  border: 1px solid #5243A9;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top .passive .number .builder-v2-widget {
+  color: #5243A9;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form {
+  margin-top: 3.125em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form .form-title {
+  margin-bottom: 2.6em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form .form-title .builder-v2-widget {
+  font-size: 1.5em;
+  line-height: 2.125em;
+  letter-spacing: 0.3px;
+  color: #121212;
+  font-weight: 600;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form .form-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item {
+  margin-bottom: 2em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item:last-child {
+  margin-bottom: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .label {
+  margin-bottom: 0.75em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .label .builder-v2-widget {
+  font-size: 0.875em;
+  letter-spacing: 0.3px;
+  color: #121212;
+  font-weight: 500;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .label .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .grid {
+  display: flex;
+  grid-column-gap: 1.875em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .grid .item {
+  width: 100%;
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .grid .zip-code {
+  width: 40%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .box-input {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .box-input .builder-v2-widget {
+  padding: 1.43em 1.06em;
+  border-radius: 8px;
+  border: 1px solid #DEE5ED;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .box-input .builder-v2-widget input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 0.875em;
+  letter-spacing: 0.3px;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .box-input .builder-v2-widget input::placeholder {
+  color: #1C2439;
+  opacity: 0.7;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .box-input .builder-v2-widget select {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 0.875em;
+  letter-spacing: 0.3px;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right {
+  width: 100%;
+  background: #F5F6F8;
+  border-radius: 0.5em;
+  padding: 3.125em 1.875em 1.875em 3.125em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top {
+  border-bottom: 1px solid #CDD1DA;
+  padding-bottom: 2.8em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid {
+  display: flex;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-image {
+  width: 6.25em;
+  margin-right: 1.875em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-image .builder-v2-widget {
+  width: 100%;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-image .builder-v2-widget img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-title .builder-v2-widget {
+  font-size: 1.2em;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  color: #E24538;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-description {
+  margin-bottom: 0.9em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-description .builder-v2-widget {
+  font-size: 1.1em;
+  letter-spacing: 0.3px;
+  color: #121211;
+  opacity: 0.7;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-description .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-price .builder-v2-widget {
+  font-size: 1.8em;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  color: #010101;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-price .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total {
+  margin-top: 2.5em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-title .builder-v2-widget {
+  font-size: 1.5em;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-title .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-coupon {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5em;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid #CDD1DA;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-coupon .checkbox .builder-v2-widget {
+  width: 1.5em;
+  height: 1.5em;
+  background: rgba(8, 160, 247, 0.06);
+  border: 1px solid #08A0F7;
+  border-radius: 5px;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-coupon .checkbox .builder-v2-widget input {
+  display: none;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-coupon .text {
+  margin-left: 1em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-coupon .text .builder-v2-widget {
+  font-size: 1em;
+  letter-spacing: 0.3px;
+  color: #08A0F7;
+  font-weight: 500;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-coupon .text .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-price {
+  margin-top: 1.25em;
+  border-bottom: 2px solid #29335A;
+  padding-bottom: 0.875em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-price .text .builder-v2-widget {
+  font-size: 0.875em;
+  letter-spacing: 0.5px;
+  color: #121212;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-price .text .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-price .text-price .builder-v2-widget {
+  font-size: 0.875em;
+  letter-spacing: 0.5px;
+  color: #121212;
+  text-align: right;
+  font-weight: 500;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-price .text-price .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total-bottom {
+  margin-top: 0.875em;
+  display: flex;
+  justify-content: space-between;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total-bottom .text .builder-v2-widget {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #121212;
+  font-weight: 600;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total-bottom .text .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total-bottom .text-price .builder-v2-widget {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  color: #121212;
+  text-align: right;
+  font-weight: 500;
+  font-weight: 600;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total-bottom .text-price .builder-v2-widget p {
+  margin: 0;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-button {
+  text-align: center;
+  margin-top: 5em;
+}
+.tc-v2-region-pageSix-9 .section-lifetime-information .information-right-button .builder-v2-widget > button {
+  width: 100%;
+  display: inline-block;
+  padding: 1.375em;
+  border: none;
+  background: #43AAA4;
+  border-radius: 0.5em;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .tc-v2-region-pageSix-9 {
+    position: relative;
+  }
+  .tc-v2-region-pageSix-9 .region-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-discount .discount-background {
+    align-items: flex-start;
+    padding: 0.875em 1.25em;
+    border-radius: 0em;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-discount .discount-image {
+    margin-top: 0.2em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid {
+    padding-top: 6em;
+    margin: 0;
+    flex-direction: column;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left {
+    width: 100%;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-title .builder-v2-widget {
+    font-size: 1.875em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-description {
+    margin-top: 1.25em;
+    padding-right: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-description .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-left-description .builder-v2-widget p {
+    margin: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right {
+    margin-top: 2.5em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list {
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(1), .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(3), .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(5), .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(7) {
+    padding-right: 0.625em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(2), .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(4), .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(6), .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list li:nth-child(8) {
+    padding-left: 0.625em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content {
+    display: flex;
+    align-items: flex-start;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-check {
+    width: 1em;
+    margin-right: 0.5em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget {
+    width: 0.7em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-check .builder-v2-widget img {
+    width: 100%;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-grid .section-grid-right-list .list-content .list-text .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information {
+    padding-top: 3em;
+    position: relative;
+    width: 111%;
+    margin-left: -5.5%;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .absolute {
+    display: none;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-background {
+    border-radius: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left {
+    padding: 0;
+    width: 100%;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top {
+    justify-content: space-around;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    border-bottom: 1px solid #DEDEDE;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number {
+    flex-direction: column;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .number {
+    margin-bottom: 0.625em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top-number .description {
+    margin-left: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-top .passive {
+    margin-left: 0;
+    opacity: 0.5;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form {
+    margin-top: 1.25em;
+    padding: 0 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form .form-title {
+    margin-bottom: 1.5em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form .form-title .builder-v2-widget {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item {
+    margin-bottom: 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item:last-child {
+    margin-bottom: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .label {
+    margin-bottom: 0.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .grid {
+    display: block;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .grid .item {
+    width: 100%;
+    margin: 0;
+    margin-top: 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .grid .zip-code {
+    width: 100%;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .box-input {
+    width: 100%;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-left-form form .item .box-input .builder-v2-widget {
+    padding: 1.06em 1.06em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right {
+    margin-top: 2.5em;
+    border-radius: 0;
+    padding: 1.25em 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top {
+    border-bottom: 1px solid #CDD1DA;
+    padding-bottom: 1.25em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-image {
+    width: 5em;
+    margin-right: 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-image .builder-v2-widget {
+    width: 100%;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-image .builder-v2-widget img {
+    width: 100%;
+    border-radius: 0.5em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-title {
+    margin-bottom: 0.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-title .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-description {
+    margin-bottom: 0.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-description .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-top .grid .item-text .text-price .builder-v2-widget {
+    font-size: 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total {
+    padding: 0 1.25em;
+    margin-top: 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-title .builder-v2-widget {
+    font-size: 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total .total-title .builder-v2-widget p {
+    margin: 0;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-price {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    padding-bottom: 0.875em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-total-bottom {
+    padding: 0 1.25em;
+  }
+  .tc-v2-region-pageSix-9 .section-lifetime-information .information-right-button {
+    padding: 0 1.25em;
+  }
+}
 .tc-v2-region-hero-7 {
   background-color: #5243AA;
 }
@@ -8430,7 +9043,7 @@ body {
     flex-direction: column;
   }
   .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-left {
-    width: calc(100% - 2em);
+    width: 100%;
   }
   .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-left-title .builder-v2-widget {
     font-size: 1.875em;
@@ -8452,11 +9065,16 @@ body {
     grid-row-gap: 0;
     grid-column-gap: 0;
   }
+  .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(1), .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(3), .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(5), .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(7) {
+    padding-right: 0.625em;
+  }
+  .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(2), .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(4), .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(6), .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list li:nth-child(8) {
+    padding-left: 0.625em;
+  }
   .tc-v2-region-hero-7 .section-lifetime-grid .section-grid-right-list .list-content {
     display: flex;
     align-items: flex-start;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-right: 1.25em;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
   }
