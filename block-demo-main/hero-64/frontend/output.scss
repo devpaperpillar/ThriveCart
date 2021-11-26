@@ -1,0 +1,175 @@
+.tc-v2-region-pageSeven-1{
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+    .section-logo{
+        .builder-v2-widget{
+            width: 8.25em;
+            margin: 0;
+        }
+    }
+    .section-grid{
+        display: flex;
+        margin-top: 6.875em;
+        justify-content: space-between;
+        .title{
+            max-width: 44.625em;
+            .builder-v2-widget{
+                font-size: 3.75em;
+                font-weight: 300;
+                color: #121212;
+                letter-spacing: -2px;
+                line-height: 1.2em;
+                p{
+                    span{
+                        font-weight: 500;
+                        color: #E24538;
+                    }
+                }
+            }
+        }
+
+        .description{
+            max-width: 23em;
+            .text{
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: 0.3px;
+                    color: #121212;
+                    opacity: 0.7;
+                }
+            }
+            .button{
+                margin-top: 1.25em;
+                .builder-v2-widget{
+                    button{
+                        font-size: 1em;
+                        font-weight: 600;
+                        color: #FFFFFF;
+                        letter-spacing: 1.4px;
+                        padding: 1.1875em;
+                        background: #E24538;
+                        width: 17.625em;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-grid-2{
+        display: flex;
+        grid-gap: .625em;
+        margin-top: 4.375em;
+        .item{
+            .image{
+                height: 18.75em;
+                .builder-v2-widget{
+                    height: 100%;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+            .text{
+                .title{
+                    margin-top: 1.25em;
+                    .builder-v2-widget{
+                        font-size: .8125em;
+                        font-weight: 500;
+                        letter-spacing: .3px;
+                        color: #121212;
+                    }
+                }
+                .address{
+                    margin-top: .5em;
+                    .builder-v2-widget{
+                        font-size: .75em;
+                        letter-spacing: .5px;
+                        color: #2C3A4B;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageSeven-1{
+        overflow: hidden;
+        .section-logo{
+            width: calc(100% + 11%);
+            margin-left: -5.5%;
+            padding-bottom: 1.25em;
+            border-bottom: 1px solid #DEDEDE;
+            .builder-v2-widget{
+                margin: 0 auto;
+            }
+        }
+        .section-grid{
+            flex-direction: column;
+            margin-top: 1.25em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 2.1875em;
+                    letter-spacing: -.5px;
+                    line-height: 1.3em;
+                }
+            }
+    
+            .description{
+                margin-top: 1.25em;
+                .button{
+                    margin-top: 2.5em;
+                    .builder-v2-widget{
+                        button{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .section-grid-2{
+            display: flex;
+            flex-wrap: wrap;
+            grid-gap: 1.25em;
+            margin-top: 2.5em;
+            .item{
+                &:nth-child(3){
+                    order: 1;
+                }
+                &:nth-child(1){
+                    order: 2;
+                    width: calc(50% - .625em);
+                }
+                &:nth-child(2){
+                    order: 3;
+                    width: calc(50% - .625em);
+                }
+                .image{
+                    height: auto;
+                    width: 100%;
+                    .builder-v2-widget{
+                        width: 100%;
+                        height: auto;
+                        img{
+                            height: auto;
+                            width: 100%;
+                        }
+                    }
+                }
+                .text{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
