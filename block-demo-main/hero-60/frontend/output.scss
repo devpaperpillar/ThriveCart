@@ -1,0 +1,153 @@
+.tc-v2-region-pageSix-7{
+    background: #2813A4;
+    overflow: hidden;
+    position: relative;
+    padding: 5em 0;
+    p{
+        margin: 0;
+    }
+    .background{
+        position: relative;
+        max-width: 1440px;
+        margin: 0 auto;
+        .illustration{
+            position: absolute;
+            top: -10em;
+            right: 0;
+            .builder-v2-widget{
+                width: calc(100% + 5em);
+                img{
+                    width: 100%;
+                }
+                .mobile{
+                    display: none;
+                }
+            }
+        }
+    }
+    .section-title{
+        max-width: 35.6875em;
+        .builder-v2-widget{
+            font-size: 3.125em;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.2em;
+            p{
+                span{
+                    color: #FFCD00;
+                }
+            }
+        }
+    }
+    .section-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3.75em;
+        margin-top: 3.75em;
+        .item{
+            .image{
+                width: 100%;
+                height: 15em;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1;
+                .cover{
+                    position: absolute;
+                    z-index: -1;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .play{
+                    width: 3.5em;
+                    img{
+                        width: 100%;
+                        box-shadow: 0px 11.2px 22.4px rgba(64, 72, 82, 0.25);
+                        border-radius: 50em;
+                    }
+                }
+            }
+            .title{
+                margin-top: 1.5em;
+                .builder-v2-widget{
+                    font-size: 1.125em;
+                    letter-spacing: .3px;
+                    color: #ffffff;
+                    font-weight: 600;
+                }
+            }
+            .description{
+                margin-top: .625em;
+                .builder-v2-widget{
+                    font-size: .875em;
+                    letter-spacing: .3px;
+                    color: #ffffff;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 576px){
+    .tc-v2-region-pageSix-7{
+        .background{
+            .illustration{
+                position: absolute;
+                top: -8.2em;
+                right: -1em;
+                .builder-v2-widget{
+                    width: 14.8125em;
+                    img{
+                        display: none;
+                    }
+                    .mobile{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .section-title{
+            .builder-v2-widget{
+                font-size: 1.875em;
+            }
+        }
+        .section-grid{
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 2.5em;
+            margin-top: 2.5em;
+            .item{
+                .image{
+                    width: 100%;
+                    height: 13.3125em;
+                    .play{
+                        width: 3.75em;
+                    }
+                }
+                .title{
+                    margin-top: 1.5em;
+                    .builder-v2-widget{
+                        font-size: 1.125em;
+                        letter-spacing: .3px;
+                        color: #ffffff;
+                        font-weight: 600;
+                    }
+                }
+                .description{
+                    margin-top: .625em;
+                    .builder-v2-widget{
+                        font-size: .875em;
+                        letter-spacing: .3px;
+                        color: #ffffff;
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+    }
+}
