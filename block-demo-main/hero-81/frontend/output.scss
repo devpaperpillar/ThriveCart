@@ -1,0 +1,162 @@
+.tc-v2-region-pageNine-2{
+    background-color: #F7F5ED;
+    overflow: hidden;
+    position: relative;
+
+    .background{
+        position: relative;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 5em 0;
+        &::before{
+            content: '';
+            position: absolute;
+            right: 60.4375em;
+            bottom: 0;
+            background-color: #E6E3DB;
+            height: 100%;
+            width: 500em;
+        }
+        .absolute{
+            position: absolute;
+            left: -13em;
+            bottom: 0;
+            .builder-v2-widget{
+                width: 31.1875em;
+            }
+        }
+    }
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .section-grid{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        .left{
+            width: 30em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    font-weight: 600;
+                    line-height: 1;
+                    letter-spacing: -2px;
+                    color: #121212;
+                    p{
+                        span{
+                            color: #FF9832;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+            .description{
+                margin-top: 1.875em;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .3px;
+                    color: #121212;
+                    opacity: .7;
+                }
+            }
+            .button{
+                margin-top: 2.5em;
+                position: relative;
+                .builder-v2-widget{
+                    button{
+                        padding: 1.4em 0;
+                        background: transparent;
+                        font-weight: 600;
+                        border-radius: 50em;
+                        border: 1px solid #121212;
+                        font-size: 1.257em;
+                        letter-spacing: 1.14px;
+                        color: #121212;
+                        width: 17em;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .right{
+            width: 29.6875em;
+            margin-right: 3.125em;
+            .builder-v2-widget{
+                position: relative;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+
+    .tc-v2-region-pageNine-1{
+        .background{
+            &::before{
+                left: 0;
+                bottom: 0;
+                height: 8.125em;
+                width: 100%;
+            }
+        }
+        .section-logo{
+            width: calc(100% + 11%);
+            margin-left: -5.5%;
+            border-bottom: 1px solid rgba(222, 222, 222, 0.3);
+            padding-bottom: 2em;
+            .builder-v2-widget{
+                width: 11.8125em;
+                margin: 0 auto;
+            }
+        }
+        .section-grid{
+            margin-top: 2.5em;
+            flex-direction: column;
+            .left{
+                .title{
+                    width: 100%;
+                    max-width: 16em;
+                    .builder-v2-widget{
+                        font-size: 2.1875em;
+                        line-height: 1.3em;
+                        letter-spacing: unset;
+                    }
+                }
+                .description{
+                    width: 100%;
+                    margin-top: 2em;
+                    .builder-v2-widget{
+                        font-size: 1em;
+                    }
+                }
+                .button{
+                    margin-top: 2em;
+                    position: relative;
+                    .builder-v2-widget{
+                        button{
+                            padding: .8125em 0;
+                            font-size: 1em;
+                            letter-spacing: 1.14px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .right{
+                width: 100%;
+                margin-top: 2.5em;
+                .builder-v2-widget{
+                    position: relative;
+                    width: 100%;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+}

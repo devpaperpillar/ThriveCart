@@ -1,0 +1,160 @@
+.tc-v2-region-pageNine-1{
+    background-color: #224D50;
+    overflow: hidden;
+    position: relative;
+
+    .background{
+        position: relative;
+        max-width: 1440px;
+        margin: 0 auto;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 61.625em;
+            bottom: 0;
+            background-color: #FFFFFF;
+            height: 100%;
+            width: 500em;
+            opacity: .1;
+        }
+    }
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .section-logo{
+        .builder-v2-widget{
+            width: 11.8125em;
+        }
+    }
+    .section-grid{
+        margin-top: 7.5em;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            .title{
+                width: 32.375em;
+                .builder-v2-widget{
+                    font-size: 5em;
+                    font-weight: 700;
+                    line-height: 1;
+                    letter-spacing: -2px;
+                    color: #FFFFFF;
+                    p{
+                        span{
+                            color: #FF9832;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+            .description{
+                width: 23em;
+                margin-top: 2.5em;
+                .builder-v2-widget{
+                    font-size: 1.125em;
+                    letter-spacing: .3px;
+                    color: #FFFFFF;
+                    opacity: .7;
+                }
+            }
+            .button{
+                margin-top: 2.5em;
+                position: relative;
+                .builder-v2-widget{
+                    button{
+                        padding: 1.4em 0;
+                        background: #FF9832;
+                        font-weight: 600;
+                        border-radius: 50em;
+                        border: none;
+                        font-size: 1.257em;
+                        letter-spacing: 1.4px;
+                        color: #FFFFFF;
+                        width: 17em;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .right{
+            width: 31.25em;
+            .builder-v2-widget{
+                position: relative;
+                width: 48.125em;
+                right: 14em;
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+
+    .tc-v2-region-pageNine-1{
+        .background{
+            &::before{
+                left: 0;
+                bottom: 0;
+                height: 8.125em;
+                width: 100%;
+            }
+        }
+        .section-logo{
+            width: calc(100% + 11%);
+            margin-left: -5.5%;
+            border-bottom: 1px solid rgba(222, 222, 222, 0.3);
+            padding-bottom: 2em;
+            .builder-v2-widget{
+                width: 11.8125em;
+                margin: 0 auto;
+            }
+        }
+        .section-grid{
+            margin-top: 2.5em;
+            flex-direction: column;
+            .left{
+                .title{
+                    width: 100%;
+                    max-width: 16em;
+                    .builder-v2-widget{
+                        font-size: 2.1875em;
+                        line-height: 1.3em;
+                        letter-spacing: unset;
+                    }
+                }
+                .description{
+                    width: 100%;
+                    margin-top: 2em;
+                    .builder-v2-widget{
+                        font-size: 1em;
+                    }
+                }
+                .button{
+                    margin-top: 2em;
+                    position: relative;
+                    .builder-v2-widget{
+                        button{
+                            padding: .8125em 0;
+                            font-size: 1em;
+                            letter-spacing: 1.14px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .right{
+                width: 100%;
+                margin-top: 2.5em;
+                .builder-v2-widget{
+                    position: relative;
+                    width: 100%;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+}
