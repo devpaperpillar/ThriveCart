@@ -73,32 +73,13 @@
 
 @media (max-width:576px){
 
-    .tc-v2-region-pageNine-1{
-        .background{
-            &::before{
-                left: 0;
-                bottom: 0;
-                height: 8.125em;
-                width: 100%;
-            }
-        }
-        .section-logo{
-            width: calc(100% + 11%);
-            margin-left: -5.5%;
-            border-bottom: 1px solid rgba(222, 222, 222, 0.3);
-            padding-bottom: 2em;
-            .builder-v2-widget{
-                width: 11.8125em;
-                margin: 0 auto;
-            }
-        }
+    .tc-v2-region-pageEleven-3{
+        padding: 0;
         .section-grid{
-            margin-top: 2.5em;
             flex-direction: column;
             .left{
                 .title{
                     width: 100%;
-                    max-width: 16em;
                     .builder-v2-widget{
                         font-size: 2.1875em;
                         line-height: 1.3em;

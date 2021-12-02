@@ -1,0 +1,122 @@
+.tc-v2-region-pageEleven-5{
+    overflow: hidden;
+    background: #0F4147;
+    .background{
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        padding: 5em 0;
+    }
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }  
+    .absolute{
+        position: absolute;
+        bottom: -4em;
+        right: -4em;
+        .builder-v2-widget{
+            width: 10.375em;
+        }
+    }
+    .section-title{
+        .builder-v2-widget{
+            font-size: 3.125em;
+            text-align: center;
+            color: #ffffff;
+            font-weight: 700;
+        }
+    }
+    .section-grid{
+        margin: 6.25em auto 0;
+        max-width: 64.5em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4.5em;
+        .item{
+            .icon{
+                .builder-v2-widget{
+                    width: 3.125em;
+                    margin: 0 auto;
+                }
+            }
+            .text{
+                .title{
+                    margin-top: 2.1875em;
+                    .builder-v2-widget{
+                        text-align: center;
+                        color: #ffffff;
+                        font-size: 1.5em;
+                        font-weight: 600;
+                    }
+                }
+
+                .description{
+                    margin-top: 1.25em;
+                    .builder-v2-widget{
+                        text-align: center;
+                        color: #ffffff;
+                        font-size: .875em;
+                        letter-spacing: .3px;
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageEleven-5{
+        .background{
+            padding: 0;
+        }
+        .absolute{
+            display: none;
+        }
+        .section-title{
+            max-width: 20em;
+            .builder-v2-widget{
+                font-size: 2.5em;
+                text-align: left;
+                line-height: 1.3em;
+            }
+        }
+        .section-grid{
+            margin: 2.5em auto 0;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 2.5em;
+            .item{
+                display: flex;
+                padding-bottom: 2.5em;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                &:last-child{
+                    border: none;
+                    padding: 0;
+                }
+                .icon{
+                    margin-right: 1.25em;
+                }
+                .text{
+                    .title{
+                        margin-top: 0;
+                        .builder-v2-widget{
+                            text-align: left;
+                        }
+                    }
+    
+                    .description{
+                        margin-top: .75em;
+                        .builder-v2-widget{
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
