@@ -803,6 +803,119 @@
         }
     }
 }
+.tc-v2-region-pageTwelve-1{
+    position: relative;
+    background: linear-gradient(0deg, #F9FAFD 11.32%, #FFFFFF 88.91%);
+    overflow: hidden;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .section-logo{
+        width: 9.625em;
+    }
+
+    .background{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 0 10em;
+        .icon-absolute{
+            position: absolute;
+            right: -2em;
+            top: -3em;
+            .builder-v2-widget{
+                width: 9.75em;
+            }
+        }
+    }
+    .section-hastag{
+        padding: .75em 1.5em;
+        background: rgba(252, 109, 110, 0.08);
+        border-radius: 2.5em;
+        width: 24.875em;
+        margin: 6em auto 0;
+        .builder-v2-widget{
+            text-align: center;
+            color: #FC6D6E;
+            font-size: 1em;
+            font-weight: 500;
+            letter-spacing: .02em;
+        }
+    }
+
+    .section-title{
+        margin-top: 2em;
+        .builder-v2-widget{
+            font-weight: 600;
+            text-align: center;
+            color: #0F1724;
+            font-size: 2.815em;
+            p{
+                span{
+                    color: #5243AA;
+                }
+            }
+        }
+    }
+    
+    .section-description{
+        width: 36.5em;
+        margin: 1.5em auto 0;
+        .builder-v2-widget{
+            font-size: 1em;
+            text-align: center;
+            color: #757D95;
+        }
+    }
+
+    .section-image{
+        position: relative;
+        margin-top: 5.75em;
+        z-index: 1;
+        &::before{
+            content: '';
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            background-color: #F5F6F8;
+            top: -1.25em;
+            left: 1.25em;
+        }
+        .absolute{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            .builder-v2-widget{
+                width: 6.0625em;
+            }
+            &-2{
+                position: absolute;
+                left: -7.7em;
+                top: -9em;
+                .builder-v2-widget{
+                    width: 7.75em;
+                } 
+            }
+            &-3{
+                position: absolute;
+                right: -3.5em;
+                bottom: -5em;
+                .builder-v2-widget{
+                    width: 8.2em;
+                } 
+            }
+        }
+    }
+}
 .tc-v2-region-pageTwo-2 {
     padding: 4em 0;
 	p{
