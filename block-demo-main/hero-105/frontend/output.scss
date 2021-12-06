@@ -51,6 +51,13 @@
             p{
                 span{
                     color: #5243AA;
+                    position: relative;
+                    .builder-v2-widget-absolute{
+                        position: absolute;
+                        left: -.8em;
+                        top: -.4em;
+                        width: calc(100% + .9em);
+                    }
                 }
             }
         }
@@ -107,6 +114,79 @@
                 .builder-v2-widget{
                     width: 8.2em;
                 } 
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageTwelve-1{
+        .section-logo{
+            margin: 0 auto;
+        }
+    
+        .background{
+            padding: 0 0 0;
+            .icon-absolute{
+                display: none;
+            }
+        }
+        .section-hastag{
+            padding: 0;
+            border-radius: 0px;
+            width: calc(100% + 11%);
+            margin: 1.25em 0 0 -5.5%;
+            .builder-v2-widget{
+                text-align: center;
+                color: #FC6D6E;
+                font-size: 1em;
+                font-weight: 500;
+                letter-spacing: .02em;
+                padding: 1em 1.25em;
+            }
+        }
+    
+        .section-title{
+            margin-top: 2.5em;
+            .builder-v2-widget{
+                text-align: left;
+                font-size: 2.5em;
+                p{
+                    span{
+                        .builder-v2-widget-absolute{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .section-description{
+            width: 100%;
+            margin: 1.25em auto 0;
+            .builder-v2-widget{
+                letter-spacing: .3px;
+                text-align: left;
+            }
+        }
+    
+        .section-image{
+            position: relative;
+            margin-top: 2.55em;
+            z-index: 1;
+            &::before{
+                display: none;
+            }
+            .absolute{
+                .builder-v2-widget{
+                    width: 1.5625em;
+                }
+                &-2{
+                    display: none;
+                }
+                &-3{
+                    display: none;
+                }
             }
         }
     }

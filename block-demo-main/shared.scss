@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 // Define font families as classes
@@ -17,8 +21,16 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+.tc-font-montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .tc-font-playfair_display{
 	font-family: 'Playfair Display', serif;
+}
+
+.tc-font-cormorant{
+	font-family: 'Cormorant', serif;
 }
 // Shared mixins etc
 //

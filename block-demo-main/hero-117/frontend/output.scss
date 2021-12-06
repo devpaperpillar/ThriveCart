@@ -1,0 +1,104 @@
+.tc-v2-region-Thirteen-2{
+    position: relative;
+    padding: 5em;
+    background: #1D5564;
+    overflow: hidden;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+    .background{
+        position: relative;
+        max-width: 1440px;
+        margin: 0 auto;
+        .asset-absolute{
+            position: absolute;
+            bottom: -4em;
+            right: -15em;
+            .builder-v2-widget{
+                width: 24.6875em;
+            }
+        }
+    }
+
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            .builder-v2-widget{
+                max-width: 38.875em;
+            }
+        }
+
+        .right{
+            max-width: 26.25em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 4.25em;
+                    color: #FFFFFF;
+                    letter-spacing: -2px;
+                    font-weight: 700;
+                }
+            }
+
+            .description{
+                margin-top: 1em;
+                .builder-v2-widget{
+                    line-height: 1.5em;
+                    font-size: 1em;
+                    color: #FFFFFF;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-Thirteen-2{
+        padding: 0;
+        .background{
+            .asset-absolute{
+                display: none;
+            }
+        }
+    
+        .section-grid{
+            flex-direction: column-reverse;
+            .left{
+                margin-top: 2.5em;
+                .builder-v2-widget{
+                    max-width: 38.875em;
+                }
+            }
+    
+            .right{
+                max-width: 26.25em;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 2.8125em;
+                        color: #FFFFFF;
+                        text-align: center;
+                        letter-spacing: unset;
+                    }
+                }
+    
+                .description{
+                    margin-top: 1.25em;
+                    .builder-v2-widget{
+                        font-size: 1em;
+                        text-align: center;
+                        color: #FFFFFF;
+                        opacity: .7;
+                        line-height: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+
+}
