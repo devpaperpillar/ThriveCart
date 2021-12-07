@@ -1,0 +1,177 @@
+.tc-v2-region-pageThirteen-6{
+    position: relative;
+    padding: 5em 0;
+    background: #1D5564;
+    overflow: hidden;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+    .background{
+        max-width: 1440px;
+        position: relative;
+        margin: 0 auto;
+        z-index: 1;
+        .section-asset{
+            position: absolute;
+            z-index: -1;
+            top: 8em;
+            left: -19em;
+            .builder-v2-widget{
+                width: 42.125em;
+            }
+        }
+    }
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            width: 19.5625em;
+            margin-top: 6em;
+            .sub{
+                .builder-v2-widget{
+                    font-size: 1.75em;
+                    letter-spacing: .3px;
+                    color: #FFFFFF;
+                }
+            }
+            .title{
+                margin-top: 2em;
+                .builder-v2-widget{
+                    font-size: 3.8125em;
+                    letter-spacing: -2px;
+                    font-weight: 700;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .right{
+            width: 47.25em;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 2.5em;
+            .item{
+                .top{
+                    .text{
+                        margin-top: 2.5em;
+                        .name{
+                            .builder-v2-widget{
+                                font-size: 1.5em;
+                                font-weight: 500;
+                                color: #FFFFFF;
+                            }
+                        }
+                        .title{
+                            margin-top: .625em;
+                            .builder-v2-widget{
+                                font-size: 1.125em;
+                                color: #FFFFFF;
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                }
+                .description{
+                    position: relative;
+                    margin-top: 1.5625em;
+                    .builder-v2-widget-absolute{
+                        position: absolute;
+                        left: -1.5em;
+                        top: -.3em;
+                        width: 1.125em;
+                    }
+                    .builder-v2-widget{
+                        font-size: 1em;
+                        letter-spacing: .3px;
+                        line-height: 1.5em;
+                        color: #FFFFFF;
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageThirteen-6{
+        padding: 0;
+        .background{
+            .section-asset{
+                display: none;
+            }
+        }
+        .section-grid{
+            flex-direction: column;
+            .left{
+                width: 100%;
+                margin-top: 0;
+                .sub{
+                    .builder-v2-widget{
+                        font-size: 1.5em;
+                        text-align: center;
+                    }
+                }
+                .title{
+                    margin-top: 1.25em;
+                    .builder-v2-widget{
+                        font-size: 2.8125em;
+                        letter-spacing: unset;
+                        text-align: center;
+                    }
+                }
+            }
+            .right{
+                width: 100%;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 2.5em;
+                margin-top: 2.5em;
+                .item{
+                    padding-top: 2.5em;
+                    border-top: 1px solid rgba(255, 255, 255, .2);
+                    .top{
+                        display: flex;
+                        align-items: center;
+                        .image{
+                            margin-right: 1.25em;
+                            .builder-v2-widget{
+                                width: 4.0625em;
+                            }
+                        }
+                        .text{
+                            margin-top: 0;
+                            .name{
+                                .builder-v2-widget{
+                                    font-size: 1.25em;
+                                }
+                            }
+                            .title{
+                                margin-top: .25em;
+                                .builder-v2-widget{
+                                    font-size: 1;
+                                }
+                            }
+                        }
+                    }
+                    .description{
+                        margin-top: 1.25em;
+                        .builder-v2-widget-absolute{
+                            display: none;
+                        }
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            letter-spacing: .3px;
+                            line-height: 1.5em;
+                            color: #FFFFFF;
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
