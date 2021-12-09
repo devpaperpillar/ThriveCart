@@ -1,0 +1,168 @@
+.tc-v2-region-pageThirteen-8{
+    overflow: hidden;
+    .background{
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        padding: 3em 0;
+        .section-asset{
+            position: absolute;
+            left: -17em;
+            bottom: -21em;
+            .builder-v2-widget{
+                width: 42em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .section-questions{
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            width: 26.25em;
+            padding: 2.5em 0 0;
+            &-title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    line-height: 1.3em;
+                    font-weight: 700;
+                    color: #1D5564;
+                    p{
+                        margin: 0;
+                        span{
+                            color: #51B3FA;
+                            position: relative;
+                            .builder-v2-widget-absolute{
+                                position: absolute;
+                                bottom: -.4em;
+                                left: 0;
+                                width: calc(100% + 1em);
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &-description{
+                margin-top: 1.5em;
+                .builder-v2-widget{
+                    font-size: .875em;
+                    line-height: 1.5em;
+                    color: #1D5564;
+                    opacity: .7;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        &-right{
+            width: 41.5em;
+            .section-right-item{
+                position: relative;
+                padding: 2.5em;
+                display: flex;
+                margin-bottom: .625em;
+                border-bottom: 2px solid rgba(29, 85, 100, 0.07);
+                .absolute{
+                    position: absolute;
+                    right: 2.5em;
+                    top: 2.5em;
+                    .builder-v2-widget{
+                        width: 1em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .number{
+                    .builder-v2-widget{
+                        color: #1D5564;
+                        font-size: 1.25em;
+                        font-weight: 600;
+                        opacity: .2;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+                .text{
+                    margin-left: 2em;
+                }
+                .title{
+                    .builder-v2-widget{
+                        color: #1D5564;
+                        font-size: 1.25em;
+                        font-weight: 600;
+                        letter-spacing: .3px;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+                .description{
+                    margin-top: 1em;
+                    .builder-v2-widget{
+                        color: #1D5564;
+                        font-size: .825em;
+                        letter-spacing: .3px;
+                        line-height: 1.7em;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageThirteen-8{
+        padding: 0;
+        .background{
+            padding: 0;
+            .section-asset{
+                display: none;
+            }
+        }
+        .section-questions{
+            flex-direction: column;
+            &-left{
+                width: 100%;
+                padding: 0;
+                &-title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                    }
+                }
+            }
+            &-right{
+                width: 100%;
+                margin-top: 2.5em;
+                .section-right-item{
+                    padding: 1.25em 3.5em 1.25em 1.25em;
+                    margin-bottom: 1em;
+                    .absolute{
+                        right: 1.25em;
+                        top: 1.5em;
+                        width: 1.5em;
+                    }
+                    .text{
+                        margin-left: 1em;
+                    }
+                    .title{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            line-height: 1.5em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

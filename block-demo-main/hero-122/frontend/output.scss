@@ -123,7 +123,13 @@
                     }
                 }
             }
-
+            
+            .pricing-option-grid{
+                display: flex;
+                .item{
+                    display: flex;
+                }
+            }
         }
         .right{
             width: 31.25em;

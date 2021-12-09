@@ -10,6 +10,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 // Define font families as classes
@@ -23,6 +25,10 @@
 
 .tc-font-montserrat {
 	font-family: 'Montserrat', sans-serif;
+}
+
+.tc-font-allison {
+	font-family: 'Allison', sans-serif;
 }
 
 .tc-font-playfair_display{

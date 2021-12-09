@@ -1,0 +1,118 @@
+.tc-v2-region-pageFourteen-2{
+    position: relative;
+    overflow: hidden;
+    background: #1E717C;
+    padding: 5em 0 0;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .section-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5em;
+        margin-top: 3.75em;
+        position: relative;
+        z-index: 1;
+        .absolute{
+            &-1{
+                position: absolute;
+                top: -5em;
+                left: -5em;
+                z-index: -1;
+                .builder-v2-widget{
+                    width: 13.125em;
+                }
+            }
+            &-2{
+                position: absolute;
+                z-index: -1;
+                bottom: -1em;
+                right: -14.125em;
+                .builder-v2-widget{
+                    width: 13.125em;
+                }
+            }
+            &-3{
+                position: absolute;
+                z-index: -1;
+                bottom: -1em;
+                right: -5.5em;
+                .builder-v2-widget{
+                    width: 4.5em;
+                }
+            }
+        }
+    }
+
+    .section-sub{
+        .builder-v2-widget{
+            font-size: 1.125em;
+            font-weight: 500;
+            letter-spacing: .625em;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+
+    .section-title{
+        margin-top: 1.5em;
+        .builder-v2-widget{
+            font-size: 3.125em;
+            color: #FFFFFF;
+            text-align: center;
+            font-weight: 700;
+            span{
+                color: #F38E17;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px){
+
+    .tc-v2-region-pageFourteen-2{
+        padding: 0 0;
+        .section-grid{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 1.25em;
+            margin-top: 2.5em;
+            .absolute{
+                &-1{
+                    display: none;
+                }
+                &-2{
+                    display: none;
+                }
+                &-3{
+                    display: none;
+                }
+            }
+        }
+    
+        .section-sub{
+            .builder-v2-widget{
+                font-size: 1;
+                text-align: left;
+            }
+        }
+    
+        .section-title{
+            margin-top: .8125em;
+            .builder-v2-widget{
+                font-size: 2.5em;
+                color: #FFFFFF;
+                text-align: left;
+                font-weight: 700;
+                span{
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+}
