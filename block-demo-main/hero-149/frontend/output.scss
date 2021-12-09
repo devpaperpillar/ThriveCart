@@ -1,0 +1,37 @@
+.tc-v2-region-pageSixteen-6{
+    padding: 5em 0;
+    background: linear-gradient(0deg, #FFFFFF 0%, #F9FBFF 100%);
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+    .section-title{
+        max-width: 62.1875em;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        .builder-v2-widget{
+            font-weight: 700;
+            font-size: 3.125em;
+            text-align: center;
+            color: #0F1724;
+            span{
+                color: #47B2C2;
+                position: relative;
+                .builder-v2-widget-absolute{
+                    position: absolute;
+                    width: calc(100% + 1.2em);
+                    left: -0.4em;
+                    top: -0.7em;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+
+    .section-image{
+        margin-top: 3.75em;
+    }
+}

@@ -1,0 +1,107 @@
+.tc-v2-region-pageSixteen-4 {
+    background: linear-gradient(0deg, #F9FBFF 0%, #F9FAFD 100%);
+    padding: 5em 0;
+	.section-seen{
+        &-title{
+            .builder-v2-widget{
+                font-size: 2.5em;
+                line-height: 50px;
+                letter-spacing: 0.3px;
+                font-weight: 600;
+                text-align: center;
+                p{
+                    margin: 0;
+                }
+                span{
+                    color: #47B2C2;
+                }
+            }
+        }
+        &-grid{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            position: relative;
+            margin-top: 3.75em;
+            grid-gap: 1.5em;
+            &-item{
+                background: #FFFFFF;
+                box-shadow: 0px 20px 80px rgba(143, 153, 173, 0.1);
+                padding: 1.75em;
+                .item-logo{
+                    max-width: 12.5em;
+                    height: 3.25em;
+                    margin-bottom: 1.47em;
+                    .builder-v2-widget{
+                        position: relative;
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .custom-top{
+                        top: 0.4em;
+                    }
+                }
+                .item-text{
+                    .builder-v2-widget{
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0.346154px;
+                        color: #404852;
+                    }
+                }
+                .item-name{
+                    .builder-v2-widget:first-child{
+                        font-size: 13px;
+                        line-height: 13px;
+                        letter-spacing: 0.3px;
+                        font-weight: 500;
+                        color: #273240;
+                    }
+                    .builder-v2-widget:last-child{
+                        font-size: 12px;
+                        line-height: 12px;
+                        letter-spacing: 0.5px;
+                        color: #2C3A4B;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageSixteen-4 {
+        padding: 0;
+        .section-seen{
+            &-title{
+                .builder-v2-widget{
+                    font-size: 30px;
+                    line-height: 38px;
+                    text-align: left;
+                }
+            }
+            &-grid{
+                margin-top: 1.875em;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-gap: 1.25em;
+                &-item{
+                    padding: 0;
+                    .item-logo{
+                        height: auto;
+                        margin: 0;
+                    }
+                    .item-text{
+                        display: none;
+                    }
+                    .item-name{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

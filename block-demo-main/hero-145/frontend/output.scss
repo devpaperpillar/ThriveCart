@@ -1,0 +1,96 @@
+.tc-v2-region-pageSixteen-3{
+    position: relative;
+    overflow: hidden;
+    padding: 3em 0 0;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .section-grid{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        .left{
+            max-width: 32.125em;
+            margin-top: 7em;
+            position: relative;
+            z-index: 1;
+            .absolute{
+                position: absolute;
+                z-index: -1;
+                bottom: 0em;
+                right: -9em;
+                .builder-v2-widget{
+                    width: 9.6875em;
+                }
+            }
+            .title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    color: #121212;
+                    font-weight: 700;
+                    line-height: 1.2em;
+                    span{
+                        color: #47B2C2;
+                        position: relative;
+                        .builder-v2-widget-absolute{
+                            position: absolute;
+                            width: calc(100% + .4em);
+                            left: 0;
+                            bottom: -.3em;
+                        }
+                    }
+                }
+            }
+            .description{
+                margin-top: 1.25em;
+                max-width: 26.0625em;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .3px;
+                    line-height: 1.7em;
+                    color: #757D95;
+                }
+            }
+            .icon{
+                margin-top: 1.5em;
+                width: 16.5em;
+                display: flex;
+                justify-content: space-between;
+                .item{
+                    .builder-v2-widget{
+                        width: 2.5em;
+                    }
+                }
+            }
+            .button{
+                margin-top: 1.5em;
+                .builder-v2-widget{
+                    button{
+                        color: #FFFFFF;
+                        letter-spacing: .5px;
+                        font-weight: 600;
+                        padding: 1.3125em 4.25em;
+                        background: #383F90;
+                        border-radius: .625em;
+                        border: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .right{
+            max-width: 40.25em;
+            position: relative;
+            .builder-v2-widget{
+                position: relative;
+                right: 4em;
+                width: calc(100% + 5.5em);
+            }
+        }
+    }
+    
+}

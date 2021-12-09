@@ -1,0 +1,95 @@
+.tc-v2-region-pageSixteen-9{
+    background-color: #10154D;
+    padding: 0 6.25em;
+    .section-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        padding-top: 3.125em;
+        padding-bottom: 3.125em;
+        margin-top: 3.125em;
+        &-item{
+            display: flex;
+            align-items: center;
+            grid-gap: 3.125em;
+            .logo{
+                .builder-v2-widget{
+                    width: 9.625em;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+            .copyright{
+                position: relative;
+                .builder-v2-widget{
+                    color: #B1B1B1;
+                    font-size: .75em;
+                    letter-spacing: .3px;
+                    p{
+                        margin: 0;
+                    }
+                }
+                .social-media{
+                    display: flex;
+                    grid-gap: 1em;
+                    margin-top: .75em;
+                    position: absolute;
+                    left: 0;
+                    bottom: -2em;
+                    .builder-v2-widget{
+                        img{
+                            width: 1.25em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageSixteen-9{
+        position: relative;
+        padding: 0;
+        .section-footer{
+            flex-direction: column;
+            align-items: flex-start;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 1.25em;
+            margin-bottom: 1.25em;
+            padding-bottom: 0;
+            margin-top: 0;
+            &-item{
+                flex-direction: column;
+                grid-gap: 0;
+                align-items: flex-start;
+                .logo{
+                    margin-bottom: 2.5em;
+                }
+                .copyright{
+                    margin-bottom: 1.25em;
+                    .social-media{
+                        display: flex;
+                        grid-gap: 1.25em;
+                        margin-top: 1.25em;
+                        position: relative;
+                        left: 0;
+                        bottom: 0;
+                        .builder-v2-widget{
+                            img{
+                                width: 2em;
+                            }
+                        }
+                    }
+                }
+                .absolute{
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
