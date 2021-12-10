@@ -78,3 +78,50 @@
         }
     }
 }
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageSeventeen-4{
+        .background{
+            padding: 0;
+        }
+        .section-grid{
+            flex-direction: column-reverse;
+            .left{
+                margin-top: 3.125em;
+                .builder-v2-widget{
+                    left: 0;
+                    width: 100%;
+                }
+            }
+    
+            .right{
+                margin-top: 0;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.5em;
+                    }
+                }
+    
+                .description{
+                    margin-top: 1.25em;
+                    .builder-v2-widget{
+                        font-size: .875em;
+                    }
+                }
+    
+                .button{
+                    margin-top: 1.875em;
+                    .builder-v2-widget{
+                        button{
+                            padding: .75em 1em;
+                            width: 100%;
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -137,7 +137,8 @@
                 margin-top: 1.875em;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                grid-gap: 1.25em;
+                grid-gap: 1.5em;
+                grid-column-gap: 3.75em;
                 &-item{
                     padding: 0;
                     .item-logo{

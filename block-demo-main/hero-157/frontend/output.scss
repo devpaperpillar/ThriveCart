@@ -151,16 +151,52 @@
 
 @media (max-width: 576px){
     .tc-v2-region-pageSeventeen-5{
+        .background{
+            padding: 0;
+            .asset{
+                display: none;
+            }
+        }
         .section-about{
+            flex-direction: column;
+            .left{
+                width: 100%;
+                .kutip{
+                    .builder-v2-widget{
+                        width: 2.5em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .customer-views{
+                    margin-top: .625em;
+                    .line{
+                        margin-right: .625em;
+                        .builder-v2-widget{
+                            width: 5.75em;
+                            height: 3px;
+                            background: rgba(18, 18, 18, 0.45);
+                            border-radius: 10px;
+                        }
+                    }
+                    .text{
+                        .builder-v2-widget{
+                            font-size: .875em;
+                        }
+                    }
+                }
+            }
             &-title{
                 width: 100%;
-                margin: 0 0 2.5em;
+                margin: 1.875em 0 0;
                 .builder-v2-widget{
                     font-size: 1.875em;
                     line-height: 1.375em;
                 }
             }
             &-grid{
+                margin-top: 1.6875em;
                 grid-template-columns: repeat(1, 1fr);
                 grid-gap: 1.25em;
                 .grid-item{

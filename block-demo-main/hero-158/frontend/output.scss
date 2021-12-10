@@ -202,8 +202,10 @@
 
 @media (max-width: 576px){
     .tc-v2-region-pageSeventeen-6{
-        background-color: #000;
         padding: 0;
+        .background{
+            padding: 0;
+        }
         .section-questions{
             flex-direction: column;
             &-left{

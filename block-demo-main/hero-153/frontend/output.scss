@@ -150,3 +150,86 @@
         }
     }
 }
+
+@media(max-width: 576px){
+
+    .tc-v2-region-pageSeventeen-1{
+
+        .background{
+            padding-bottom: 0;
+            .asset-1{
+                left: -14em;
+                .builder-v2-widget{
+                    width: 24.5em;
+                }
+            }
+            .asset-2{
+                z-index: -1;
+                position: absolute;
+                bottom: -7em;
+                right: -8em;
+                .builder-v2-widget{
+                    width: 12.8125em;
+                }
+            }
+        }
+        .section-nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                .builder-v2-widget{
+                    width: 5.6875em;
+                }
+            }
+    
+            .menu{
+                display: none;
+            }
+    
+            .logreg{
+                display: none;
+            }
+        }
+    
+        .section-grid{
+            margin-top: 3.25em;
+            flex-direction: column;
+            .left{
+                margin-right: 0;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.5em;
+                        letter-spacing: -2px;
+                        line-height: 1.7em;
+                    }
+                }
+    
+                .description{
+                    margin-top: .625em;
+                    .builder-v2-widget{
+                        font-size: .875em;
+                    }
+                }
+    
+                .button{
+                    margin-top: 1.875em;
+                    .builder-v2-widget{
+                        button{
+                            font-size: .875em;
+                            padding: .75em 0;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .right{
+                margin-top: 3.125em;
+                .builder-v2-widget{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

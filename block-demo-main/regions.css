@@ -3728,6 +3728,72 @@ body {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  .tc-v2-region-pageSeventeen-1 .background {
+    padding-bottom: 0;
+  }
+  .tc-v2-region-pageSeventeen-1 .background .asset-1 {
+    left: -14em;
+  }
+  .tc-v2-region-pageSeventeen-1 .background .asset-1 .builder-v2-widget {
+    width: 24.5em;
+  }
+  .tc-v2-region-pageSeventeen-1 .background .asset-2 {
+    z-index: -1;
+    position: absolute;
+    bottom: -7em;
+    right: -8em;
+  }
+  .tc-v2-region-pageSeventeen-1 .background .asset-2 .builder-v2-widget {
+    width: 12.8125em;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-nav .logo .builder-v2-widget {
+    width: 5.6875em;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-nav .menu {
+    display: none;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-nav .logreg {
+    display: none;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid {
+    margin-top: 3.25em;
+    flex-direction: column;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .left {
+    margin-right: 0;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .left .title .builder-v2-widget {
+    font-size: 1.5em;
+    letter-spacing: -2px;
+    line-height: 1.7em;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .left .description {
+    margin-top: 0.625em;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .left .description .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .left .button {
+    margin-top: 1.875em;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .left .button .builder-v2-widget button {
+    font-size: 0.875em;
+    padding: 0.75em 0;
+    width: 100%;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .right {
+    margin-top: 3.125em;
+  }
+  .tc-v2-region-pageSeventeen-1 .section-grid .right .builder-v2-widget {
+    width: 100%;
+  }
+}
 .tc-v2-region-pageSeventeen-2 {
   overflow: hidden;
 }
@@ -3857,7 +3923,8 @@ body {
     margin-top: 1.875em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.25em;
+    grid-gap: 1.5em;
+    grid-column-gap: 3.75em;
   }
   .tc-v2-region-pageSeventeen-2 .section-seen-grid-item {
     padding: 0;
@@ -3937,6 +4004,41 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 576px) {
+  .tc-v2-region-pageSeventeen-3 .background {
+    padding: 0;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid {
+    flex-direction: column-reverse;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .left {
+    margin-top: 3.125em;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .left .builder-v2-widget {
+    left: 0;
+    width: 100%;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .right {
+    margin-top: 0;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .right .title .builder-v2-widget {
+    font-size: 1.5em;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .right .description {
+    margin-top: 1.25em;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .right .description .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .right .button {
+    margin-top: 1.875em;
+  }
+  .tc-v2-region-pageSeventeen-3 .section-grid .right .button .builder-v2-widget button {
+    padding: 0.75em 1em;
+    width: 100%;
+    font-size: 1em;
+  }
+}
 .tc-v2-region-pageSeventeen-4 {
   overflow: hidden;
   position: relative;
@@ -4010,6 +4112,41 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 576px) {
+  .tc-v2-region-pageSeventeen-4 .background {
+    padding: 0;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid {
+    flex-direction: column-reverse;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .left {
+    margin-top: 3.125em;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .left .builder-v2-widget {
+    left: 0;
+    width: 100%;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .right {
+    margin-top: 0;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .right .title .builder-v2-widget {
+    font-size: 1.5em;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .right .description {
+    margin-top: 1.25em;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .right .description .builder-v2-widget {
+    font-size: 0.875em;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .right .button {
+    margin-top: 1.875em;
+  }
+  .tc-v2-region-pageSeventeen-4 .section-grid .right .button .builder-v2-widget button {
+    padding: 0.75em 1em;
+    width: 100%;
+    font-size: 1em;
+  }
+}
 .tc-v2-region-pageSeventeen-5 {
   overflow: hidden;
   background: #F6F7FE;
@@ -4149,15 +4286,49 @@ body {
 }
 
 @media (max-width: 576px) {
+  .tc-v2-region-pageSeventeen-5 .background {
+    padding: 0;
+  }
+  .tc-v2-region-pageSeventeen-5 .background .asset {
+    display: none;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about {
+    flex-direction: column;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about .left {
+    width: 100%;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about .left .kutip .builder-v2-widget {
+    width: 2.5em;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about .left .kutip .builder-v2-widget img {
+    width: 100%;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about .left .customer-views {
+    margin-top: 0.625em;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about .left .customer-views .line {
+    margin-right: 0.625em;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about .left .customer-views .line .builder-v2-widget {
+    width: 5.75em;
+    height: 3px;
+    background: rgba(18, 18, 18, 0.45);
+    border-radius: 10px;
+  }
+  .tc-v2-region-pageSeventeen-5 .section-about .left .customer-views .text .builder-v2-widget {
+    font-size: 0.875em;
+  }
   .tc-v2-region-pageSeventeen-5 .section-about-title {
     width: 100%;
-    margin: 0 0 2.5em;
+    margin: 1.875em 0 0;
   }
   .tc-v2-region-pageSeventeen-5 .section-about-title .builder-v2-widget {
     font-size: 1.875em;
     line-height: 1.375em;
   }
   .tc-v2-region-pageSeventeen-5 .section-about-grid {
+    margin-top: 1.6875em;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 1.25em;
   }
@@ -4365,7 +4536,9 @@ body {
 
 @media (max-width: 576px) {
   .tc-v2-region-pageSeventeen-6 {
-    background-color: #000;
+    padding: 0;
+  }
+  .tc-v2-region-pageSeventeen-6 .background {
     padding: 0;
   }
   .tc-v2-region-pageSeventeen-6 .section-questions {
