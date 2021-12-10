@@ -1,0 +1,157 @@
+.tc-v2-region-pageSeventeen-2 {
+    overflow: hidden;
+    .background{
+        padding: 5em 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        .asset{
+            width: 100%;
+            position: absolute;
+            left: -7em;
+            top: -15em;
+            z-index: -1;
+            .builder-v2-widget{
+                width: 103.0625em;
+                img{
+                    width: 100%;
+                }
+                .mobile{
+                    display: none;
+                }
+            }
+        }
+    }
+	.section-seen{
+        &-title{
+            max-width: 30.5em;
+            margin: 0 auto;
+            .builder-v2-widget{
+                font-size: 2.8125em;
+                line-height: 1.3em;
+                letter-spacing: 0.3px;
+                font-weight: 600;
+                text-align: center;
+                p{
+                    margin: 0;
+                }
+            }
+        }
+        &-description{
+            margin: 1.875em auto 0;
+            max-width: 30.5em;
+            .builder-v2-widget{
+                font-size: 1.125em;
+                letter-spacing: .35px;
+                line-height: 1.7em;
+                color: #404852;
+                text-align: center;
+            }
+        }
+        &-grid{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            position: relative;
+            margin-top: 3.75em;
+            grid-gap: 1.5em;
+            &-item{
+                .item-logo{
+                    max-width: 12.5em;
+                    height: 3.25em;
+                    margin-bottom: 1.47em;
+                    .builder-v2-widget{
+                        position: relative;
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .custom-top{
+                        top: 0.4em;
+                    }
+                }
+                .item-text{
+                    .builder-v2-widget{
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0.346154px;
+                        color: #404852;
+                    }
+                }
+                .item-name{
+                    .builder-v2-widget:first-child{
+                        font-size: 13px;
+                        line-height: 13px;
+                        letter-spacing: 0.3px;
+                        font-weight: 500;
+                        color: #273240;
+                    }
+                    .builder-v2-widget:last-child{
+                        font-size: 12px;
+                        line-height: 12px;
+                        letter-spacing: 0.5px;
+                        color: #2C3A4B;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageSeventeen-2 {
+        padding: 0;
+        .background{
+            padding: 3em 0;
+            .asset{
+                left: 0;
+                top: 0;
+                .builder-v2-widget{
+                    width: 100%;
+                    img{
+                        display: none;
+                    }
+                    .mobile{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .section-seen{
+            &-title{
+                .builder-v2-widget{
+                    font-size: 1.5em;
+                }
+            }
+            &-description{
+                margin: 1.25em auto 0;
+                .builder-v2-widget{
+                    font-size: .875em;
+                    line-height: 1.7em;
+                }
+            }
+            &-grid{
+                margin-top: 1.875em;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1.25em;
+                &-item{
+                    padding: 0;
+                    .item-logo{
+                        height: auto;
+                        margin: 0;
+                    }
+                    .item-text{
+                        display: none;
+                    }
+                    .item-name{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

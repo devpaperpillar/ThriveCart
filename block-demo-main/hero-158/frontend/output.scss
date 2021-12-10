@@ -1,0 +1,296 @@
+.tc-v2-region-pageSeventeen-6{
+    background-color: #2D4E91;
+    overflow: hidden;
+    position: relative;
+    .background{
+        padding: 6.25em 0;
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        .asset-1{
+            position: absolute;
+            left: -12em;
+            top: -11em;
+            .builder-v2-widget{
+                width: 21.875em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .asset-2{
+            position: absolute;
+            right: 0;
+            bottom: -16em;
+            .builder-v2-widget{
+                width: 20.9375em;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .section-questions{
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            width: 27.875em;
+            &-title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    line-height: 1.3em;
+                    font-weight: 600;
+                    letter-spacing: .3px;
+                    color: #fff;
+                    p{
+                        margin: 0;
+                        span{
+                            color: #51B3FA;
+                            position: relative;
+                            .builder-v2-widget-absolute{
+                                position: absolute;
+                                bottom: -.4em;
+                                left: 0;
+                                width: calc(100% + 1em);
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &-description{
+                margin-top: 1.5em;
+                .builder-v2-widget{
+                    font-size: .875em;
+                    line-height: 1.5em;
+                    color: #fff;
+                    opacity: .7;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+            &-email{
+                display: flex;
+                align-items: center;
+                margin-top: 2.875em;
+                margin-bottom: 1.75em;
+                padding-bottom: 1.75em;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                .image{
+                    margin-right: 1.25em;
+                    .builder-v2-widget{
+                        width: 3.75em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .text{
+                    .title{
+                        .builder-v2-widget{
+                            font-size: 1.25em;
+                            color: #fff;
+                            font-weight: 500;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+                .description{
+                    .title{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            color: #fff;
+                            opacity: .5;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            &-phone{
+                display: flex;
+                align-items: center;
+                .image{
+                    margin-right: 1.25em;
+                    .builder-v2-widget{
+                        width: 3.75em;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .text{
+                    .title{
+                        .builder-v2-widget{
+                            font-size: 1.25em;
+                            color: #fff;
+                            font-weight: 500;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+                .description{
+                    .title{
+                        .builder-v2-widget{
+                            font-size: 1em;
+                            color: #fff;
+                            opacity: .5;
+                            p{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-right{
+            width: 41.5em;
+            .section-right-item{
+                position: relative;
+                background: rgba(255, 255, 255, 0.07);
+                border-radius: 0.625em;
+                padding: 2.5em;
+                display: flex;
+                margin-bottom: .625em;
+                .absolute{
+                    position: absolute;
+                    right: 2.5em;
+                    top: 2.5em;
+                    width: 1.5em;
+                    .builder-v2-widget{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .number{
+                    .builder-v2-widget{
+                        color: #fff;
+                        font-size: 1.25em;
+                        font-weight: 600;
+                        opacity: .2;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+                .title{
+                    margin-left: 2em;
+                    .builder-v2-widget{
+                        color: #fff;
+                        font-size: 1.25em;
+                        font-weight: 500;
+                        letter-spacing: .3px;
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageSeventeen-6{
+        background-color: #000;
+        padding: 0;
+        .section-questions{
+            flex-direction: column;
+            &-left{
+                width: 100%;
+                &-title{
+                    .builder-v2-widget{
+                        font-size: 1.875em;
+                    }
+                }
+                &-email{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 2.875em;
+                    margin-bottom: 1.75em;
+                    padding-bottom: 1.75em;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                    .image{
+                        margin-right: 1.25em;
+                        .builder-v2-widget{
+                            width: 2.5em;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .text{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                    .description{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: .875em;
+                            }
+                        }
+                    }
+                }
+                &-phone{
+                    display: flex;
+                    align-items: center;
+                    .image{
+                        margin-right: 1.25em;
+                        .builder-v2-widget{
+                            width: 2.5em;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .text{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                    .description{
+                        .title{
+                            .builder-v2-widget{
+                                font-size: .875em;
+                            }
+                        }
+                    }
+                }
+            }
+            &-right{
+                width: 100%;
+                margin-top: 2.5em;
+                .section-right-item{
+                    padding: 1.25em 5em 1.25em 1.25em;
+                    margin-bottom: 1em;
+                    .absolute{
+                        right: 1.25em;
+                        top: 1.5em;
+                        width: 1.5em;
+                    }
+                    .title{
+                        margin-left: 1em;
+                        .builder-v2-widget{
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.tc-v2-region-pageSeventeen-4{
+    overflow: hidden;
+    position: relative;
+    .background{
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .section-grid{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        .left{
+            max-width: 31.25em;
+            .builder-v2-widget{
+                position: relative;
+                left: -6.2em;
+                width: 40.8125em;
+            }
+        }
+
+        .right{
+            max-width: 35.875em;
+            margin-top: 10em;
+            .title{
+                .builder-v2-widget{
+                    font-size: 2.8125em;
+                    color: #121212;
+                    font-weight: 600;
+                    span{
+                        color: #696EE9;
+                        position: relative;
+                        .builder-v2-widget-absolute{
+                            position: absolute;
+                            left: 0;
+                            bottom: -.7em;
+                        }
+                    }
+                }
+            }
+
+            .description{
+                margin-top: 1.25em;
+                max-width: 30em;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .3px;
+                    color: #121212;
+                    opacity: .7;
+                    line-height: 1.5em;
+                }
+            }
+
+            .button{
+                margin-top: 3.125em;
+                .builder-v2-widget{
+                    button{
+                        padding: .875em 6.2375em;
+                        background: #696EE9;
+                        border-radius: 50em;
+                        border: none;
+                        color: #FFFFFF;
+                        font-weight: 600;
+                        letter-spacing: .5px;
+                        font-size: 1.25em;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
