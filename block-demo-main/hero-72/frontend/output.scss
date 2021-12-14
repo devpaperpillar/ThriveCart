@@ -9,6 +9,25 @@
         width: 100%;
     }
 
+    .background{
+        max-width: 1440px;
+        position: relative;
+        z-index: 1;
+        .asset{
+            position: absolute;
+            top: -9em;
+            left: -3em;
+            z-index: -1;
+            .builder-v2-widget{
+                .circle{
+                    width: 32.5625em;
+                    height: 32.5625em;
+                    border-radius: 50%;
+                    background: rgba(253, 237, 236, .5);
+                }
+            }
+        }
+    }
     .section-logo{
         .builder-v2-widget{
             width: 8.9375em;
@@ -84,6 +103,12 @@
 @media (max-width: 576px){
 
     .tc-v2-region-pageEight-1{
+        .background{
+            .asset{
+                left: -15.5em;
+            }
+        }
+
         .section-logo{
             padding-bottom: 2em;
             border-bottom: 1px solid #DEDEDE;

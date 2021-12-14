@@ -11,16 +11,21 @@
 
     .region-wrap{
         position: relative;
+        z-index: 1;
         &::before{
+            display: none;
+        }
+        &::after{
             content: '';
             position: absolute;
-            bottom: -18em;
-            left: 20em;
-            width: 351px;
-            height: 351px;
+            top: 2em;
+            left: -6em;
+            width: 8.5em;
+            height: 8.5em;
             border-radius: 50%;
             background: #E3E3E2;
             opacity: .5;
+            z-index: -1;
         }
     }
     .section-grid{
@@ -92,9 +97,7 @@
 @media (max-width: 576px){
 
     .tc-v2-region-pageEight-2{
-        padding: 5em;
-        background-color: #F8F9F9;
-        overflow: hidden;
+        padding: 0;
         p{
             margin: 0;
         }
@@ -117,65 +120,44 @@
             }
         }
         .section-grid{
-            display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             .left{
-                max-width: 47em;
                 .title{
                     .builder-v2-widget{
-                        font-size: 3.125em;
-                        font-weight: 600;
-                        letter-spacing: -2px;
-                        color: #261E12;
+                        font-size: 1.75em;
+                        letter-spacing: -1px;
                     }
                 }
                 .description{
-                    margin-top: 2.5em;
-                    max-width: 27.1875em;
-                    .builder-v2-widget{
-                        font-size: 1em;
-                        letter-spacing: .3px;
-                        color: #261E12;
-                        opacity: .7;
-                    }
+                    margin-top: 1.25em;
                 }
                 .grid{
-                    margin-top: 3.75em;
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    grid-gap: 3.75em;
-                    .icon{
-                        .builder-v2-widget{
-                            width: 3.75em;
-                        }
-                    }
+                    margin-top: 3.125em;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 2.5em;
                     .item-title{
-                        margin-top: 1.875em;
                         .builder-v2-widget{
-                            font-size: 1.5em;
+                            font-size: 1.25em;
                             color: #261E12;
                             font-weight: 600;
                         }
                     }
                     .item-description{
-                        margin-top: 1.25em;
+                        margin-top: .875em;
                         .builder-v2-widget{
-                            font-size: .875em;
-                            color: #261E12;
-                            opacity: .7;
-                            letter-spacing: .3px;
+                            font-size: .8125em;
                         }
                     }
                 }
             }
     
             .right{
-                max-width: 23em;
+                margin-top: 5em;
                 .builder-v2-widget{
                     position: relative;
-                    width: calc(100% + 18em);
-                    right: 8em;
-                    top: 1em;
+                    width: 100%;
+                    right: 0;
+                    top: 0;
                 }
             }
         }

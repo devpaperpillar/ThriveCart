@@ -3,6 +3,21 @@
 	p{
 		margin: 0;
 	}
+
+    .background{
+		position: relative;
+		max-width: 1440px;
+		margin: 0 auto;
+		.asset{
+			position: absolute;
+			top: 0;
+			left: 0;
+			img{
+				width: 100%;
+			}
+		}
+	}
+
 	.section-grid{
 		display: flex;
 		justify-content: space-between;
@@ -85,6 +100,13 @@
         p{
             margin: 0;
         }
+
+        .background{
+            .asset{
+                display: none;
+            }
+        }
+
         .section-grid{
             flex-direction: column;
         }

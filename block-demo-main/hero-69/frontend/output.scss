@@ -1,0 +1,103 @@
+.tc-v2-region-pageSeven-6 {
+	.section-seen{
+        &-title{
+            max-width: 44.5em;
+            .builder-v2-widget{
+                font-size: 40px;
+                line-height: 50px;
+                letter-spacing: 0.3px;
+                p{
+                    margin: 0;
+                }
+            }
+        }
+        &-grid{
+            margin-top: 5em;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            position: relative;
+            &-item{
+                padding: 0 2.5em;
+                &:first-child{
+                    padding-left: 0;
+                }
+                &:last-child{
+                    padding-right: 0;
+                }
+                .item-logo{
+                    max-width: 12.5em;
+                    height: 3.25em;
+                    margin-bottom: 1.47em;
+                    .builder-v2-widget{
+                        position: relative;
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .custom-top{
+                        top: 0.4em;
+                    }
+                }
+                .item-text{
+                    .builder-v2-widget{
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0.346154px;
+                        color: #404852;
+                    }
+                }
+                .item-name{
+                    .builder-v2-widget:first-child{
+                        font-size: 13px;
+                        line-height: 13px;
+                        letter-spacing: 0.3px;
+                        font-weight: 500;
+                        color: #273240;
+                    }
+                    .builder-v2-widget:last-child{
+                        font-size: 12px;
+                        line-height: 12px;
+                        letter-spacing: 0.5px;
+                        color: #2C3A4B;
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .tc-v2-region-pageSeven-6 {
+        .section-seen{
+            &-title{
+                .builder-v2-widget{
+                    font-size: 30px;
+                    line-height: 38px;
+                }
+            }
+            &-grid{
+                margin-top: 2.5em;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-row-gap: 30px;
+                grid-column-gap: 50px;
+                &-item{
+                    padding: 0;
+                    .item-logo{
+                        height: auto;
+                        margin: 0;
+                    }
+                    .item-text{
+                        display: none;
+                    }
+                    .item-name{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

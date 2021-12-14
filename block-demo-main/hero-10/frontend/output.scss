@@ -3,6 +3,22 @@
 	p{
 		margin: 0;
 	}
+	.background{
+		position: relative;
+		max-width: 1440px;
+		margin: 0 auto;
+		.asset{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			img{
+				width: 100%;
+			}
+			.mobile{
+				display: none;
+			}
+		}
+	}
 	.region-wrap-content {
 		min-height: 42em;
 		position: relative;
@@ -122,7 +138,7 @@
 
 	.section-right{
 		position: relative;
-		margin-top: -10em;
+		margin-top: -11.12em;
 		top: 5em;
 		.builder-v2-widget{
 			width: 24.9375em;
@@ -136,6 +152,16 @@
 @media (max-width: 576px){
 	
 	.tc-v2-region-pageTwo-1 {
+		.background{
+			.asset{
+				img{
+					display: none;
+				}
+				.mobile{
+					display: block;
+				}
+			}
+		}
 		.section-logo {
 			padding: 0 0 1.25em;
 			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -180,6 +206,9 @@
 				.review-item{
 					padding-bottom: 1.6875em;
 					border-bottom: 1px solid rgb(255, 255, 255, .3);
+					&:last-child{
+						border: none;
+					}
 				}
 			}
 		}

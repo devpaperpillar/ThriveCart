@@ -1,0 +1,148 @@
+.tc-v2-region-pageSeven-5{
+    padding: 5em 0;
+    p{
+        margin: 0;
+    }
+    .section-title{
+        width: 45.625em;
+        margin: 0 auto;
+        .builder-v2-widget{
+            text-align: center;
+            font-weight: 700;
+            font-size: 2.5em;
+            p{
+                span{
+                    color: #0F9B9B;
+                }
+            }
+        }
+    }
+
+    .section-column{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 4.6875em;
+        margin-top: 5em;
+        .item{
+            &:nth-child(2){
+                margin-top: 4em;
+            }
+            &:nth-child(3){
+                margin-top: 8em;
+            }
+            .image{
+                width: 100%;
+                position: relative;
+                .profile{
+                    position: relative;
+                    .builder-v2-widget{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .text{
+                display: flex;
+                margin-top: 2.5em;
+                .line{
+                    margin-right: .9375em;
+                    .builder-v2-widget{
+                        width: 1.5625em;
+                        height: 2px;
+                        background-color: #000;
+                        margin-top: 1em;
+                    }
+                }
+                .description{
+                    .builder-v2-widget{
+                        font-size: 1.25em;
+                        letter-spacing: .3px;
+                        font-weight: 500;
+                    }
+                }
+                .name{
+                    margin-top: 1em;
+                    .builder-v2-widget{
+                        font-size: .875em;
+                        line-height: 1.5em;
+                        letter-spacing: .3px;
+                        opacity: .7;
+                    }
+                }
+            }
+            &-left{
+                position: relative;
+                top: 5em;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px){
+    
+    .tc-v2-region-pageSeven-5{
+        padding: 0;
+        .section-title{
+            width: 100%;
+            margin: 0 auto;
+            .builder-v2-widget{
+                text-align: left;
+                font-size: 1.875em;
+            }
+        }
+    
+        .section-column{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 2.5em;
+            margin-top: 2.5em;
+            .item{
+                &:nth-child(2){
+                    margin-top: 0;
+                }
+                &:nth-child(3){
+                    margin-top: 0;
+                }
+                .image{
+                    width: 100%;
+                }
+                .text{
+                    display: flex;
+                    margin-top: 2.5em;
+                    .line{
+                        margin-right: .9375em;
+                        .builder-v2-widget{
+                            width: 1.5625em;
+                            height: 2px;
+                            background-color: #000;
+                            margin-top: 1em;
+                        }
+                    }
+                    .description{
+                        .builder-v2-widget{
+                            font-size: 1.25em;
+                            letter-spacing: .3px;
+                            font-weight: 500;
+                        }
+                    }
+                    .name{
+                        margin-top: 1em;
+                        .builder-v2-widget{
+                            font-size: .875em;
+                            line-height: 1.5em;
+                            letter-spacing: .3px;
+                            opacity: .7;
+                        }
+                    }
+                }
+                &-left{
+                    position: relative;
+                    top: 0;
+                }
+            }
+        }
+    }
+
+}

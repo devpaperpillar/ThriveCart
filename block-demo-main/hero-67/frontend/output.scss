@@ -35,6 +35,115 @@
                     line-height: 1.3em;
                 }
             }
+            .list{
+                margin-top: 3.125em;
+            }
+            .item{
+                display: flex;
+                margin-bottom: 3.75em;
+                position: relative;
+                &::before{
+                    content: '';
+                    height: 6.0625em;
+                    position: absolute;
+                    z-index: -1;
+                    left: 1.875em;
+                    top: 4em;
+                    border: 1px dashed #FF7F00;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                    &::before{
+                        display: none;
+                    }
+                }
+                .icon{
+                    .builder-v2-widget{
+                        width: 3.75em;
+                    }
+                }
+                .text{
+                    margin-left: 1.5em;
+                    .title-text{
+                        .builder-v2-widget{
+                            font-size: 1.375em;
+                            letter-spacing: .3px;
+                            font-weight: 500;
+                        }
+                    }
+                    .description{
+                        margin-top: .75em;
+                        .builder-v2-widget{
+                            font-size: .875em;
+                            letter-spacing: .3px;
+                            color: #121212;
+                            line-height: 1.5em;
+                        }
+                    }
+                }
+            }
         }
     }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageSeven-4{
+        padding: 0;
+        .section-grid{
+            flex-direction: column;
+            .left{
+                display: none;
+            }
+    
+            .right{
+                max-width: 31.25em;
+                .title{
+                    .builder-v2-widget{
+                        font-size: 2.1875em;
+                        font-weight: 300;
+                    }
+                }
+                .list{
+                    margin-top: 2.5em;
+                }
+                .item{
+                    display: flex;
+                    margin-bottom: 1.75em;
+                    position: relative;
+                    padding-bottom: 1.75em;
+                    border-bottom: 1px solid #ECDFDF;
+                    &::before{
+                        display: none;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                        &::before{
+                            display: none;
+                        }
+                    }
+                    .icon{
+                        .builder-v2-widget{
+                            width: 3em;
+                        }
+                    }
+                    .text{
+                        margin-left: 1.25em;
+                        .title-text{
+                            .builder-v2-widget{
+                                font-size: 1.25em;
+                            }
+                        }
+                        .description{
+                            margin-top: .5em;
+                            .builder-v2-widget{
+                                font-size: .875em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
