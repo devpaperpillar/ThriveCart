@@ -1,0 +1,229 @@
+.tc-v2-region-pageEight-4{
+    position: relative;
+    overflow: hidden;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .background{
+        max-width: 1440px;
+        margin: 0 auto;
+        position: relative;
+        padding: 13em 0 0;
+        .asset{
+            position: absolute;
+            right: -7em;
+            top: -10em;
+            .builder-v2-widget{
+                width: 41.0625em;
+            }
+        }
+    }
+
+    .section-title{
+        max-width: 43.75em;
+        .builder-v2-widget{
+            font-size: 3.125em;
+            font-weight: 600;
+            line-height: 1.2em;
+            letter-spacing: .3px;
+            color: #261E12;
+        }
+    }
+
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3.125em;
+        .left{
+            max-width: 46.25em;
+            .description{
+                .builder-v2-widget{
+                    font-size: 1.75em;
+                    letter-spacing: .3px;
+                    line-height: 1.7em;
+                    font-weight: 300;
+                }
+            }
+
+            .profile{
+                margin-top: 2.5em;
+                display: flex;
+                align-items: center;
+                .image{
+                    .builder-v2-widget{
+                        width: 3.75em;
+                    }
+                }
+                .text{
+                    margin-left: 1.875em;
+                    .name{
+                        .builder-v2-widget{
+                            font-size: .9375em;
+                            color: #261E12;
+                            font-weight: 500;
+                            letter-spacing: .4px;
+                        }
+                    }
+                    .title{
+                        .builder-v2-widget{
+                            font-size: .8125em;
+                            color: #261E12;
+                            font-weight: 300;
+                            letter-spacing: .3px;
+                            opacity: .5;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right{
+            max-width: 21.25em;
+            padding-left: 3.75em;
+            border-left: 1px solid rgba(38, 30, 18, .3);
+            .item{
+                &:first-child{
+                    padding-bottom: 3.75em;
+                    margin-bottom: 3.5em;
+                    border-bottom: 1px solid rgba(38, 30, 18, .3);
+                }
+                .description{
+                    .builder-v2-widget{
+                        font-size: 1em;
+                        line-height: 1.7em;
+                        color: #261E12;
+                        letter-spacing: .35px;
+                    }
+                }
+
+                .profile{
+                    margin-top: 1.25em;
+                    display: flex;
+                    align-items: center;
+                    .image{
+                        .builder-v2-widget{
+                            width: 3em;
+                        }
+                    }
+                    .text{
+                        margin-left: 1.375em;
+                        .name{
+                            .builder-v2-widget{
+                                font-size: .8125em;
+                                color: #261E12;
+                                font-weight: 500;
+                                letter-spacing: .4px;
+                            }
+                        }
+                        .title{
+                            .builder-v2-widget{
+                                font-size: .75em;
+                                color: #261E12;
+                                font-weight: 300;
+                                letter-spacing: .3px;
+                                opacity: .5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageEight-4{
+        .background{
+            padding: 12em 0 0;
+            .asset{
+                position: absolute;
+                right: -13em;
+                top: -12em;
+                .builder-v2-widget{
+                    width: 30.3125em;
+                }
+            }
+        }
+    
+        .section-title{
+            .builder-v2-widget{
+                font-size: 1.75em;
+                letter-spacing: -1px;
+            }
+        }
+    
+        .section-grid{
+            flex-direction: column;
+            .left{
+                padding-bottom: 2.5em;
+                border-bottom: 1px solid rgba(38, 30, 18, .3);
+                .description{
+                    .builder-v2-widget{
+                        font-size: .875em;
+                        font-weight: 400;
+                    }
+                }
+    
+                .profile{
+                    margin-top: 1.75em;
+                    .text{
+                        margin-left: 1.25em;
+                        .name{
+                            .builder-v2-widget{
+                                font-size: .8125em;
+                            }
+                        }
+                        .title{
+                            .builder-v2-widget{
+                                font-size: .75em;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .right{
+                padding-left: 0;
+                border-left: none;
+                width: 100%;
+                margin-top: 2.5em;
+                .item{
+                    &:first-child{
+                        padding-bottom: 2.5em;
+                        margin-bottom: 2.5em;
+                        border-bottom: 1px solid rgba(38, 30, 18, .3);
+                    }
+                    .description{
+                        .builder-v2-widget{
+                            font-size: .875em;
+                            line-height: 1.7em;
+                        }
+                    }
+    
+                    .profile{
+                        margin-top: 1.75em;
+                        .text{
+                            margin-left: 1.25em;
+                            .name{
+                                .builder-v2-widget{
+                                    font-size: .8125em;
+                                }
+                            }
+                            .title{
+                                .builder-v2-widget{
+                                    font-size: .75em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

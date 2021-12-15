@@ -1,0 +1,174 @@
+.tc-v2-region-pageEight-3{
+    position: relative;
+    overflow: hidden;
+    padding: 5em 0;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            max-width: 30em;
+            .builder-v2-widget{
+                position: relative;
+                right: 3em;
+                width: 36.1875em;
+            }
+        }
+
+        .right{
+            max-width: 39.875em;
+            .main-title{
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    font-weight: 600;
+                    letter-spacing: .3px;
+                    color: #261E12;
+                }
+            }
+
+            .main-description{
+                margin-top: 2.5em;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .3px;
+                    color: #261E12;
+                    opacity: .7;
+                    line-height: 1.7em;
+                }
+            }
+
+            .grid{
+                margin-top: 3.75em;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 3.125em;
+                .item{
+                    .top{
+                        display: flex;
+                        align-items: center;
+                        .icon{
+                            .builder-v2-widget{
+                                width: 1.5625em;
+                                position: relative;
+                                top: .2em;
+                            }
+                        }
+                        .title{
+                            margin-left: .625em;
+                            .builder-v2-widget{
+                                font-weight: 600;
+                                font-size: 1.5em;
+                                color: #261E12;
+                                letter-spacing: .3px;
+                            }
+                        }
+                    }
+
+                    .description{
+                        margin-top: 1.25em;
+                        .builder-v2-widget{
+                            font-size: .875em;
+                            line-height: 1.5em;
+                            color: #261E12;
+                            letter-spacing: .3px;
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+
+            .button{
+                margin-top: 3.75em;
+                .builder-v2-widget{
+                    button{
+                        font-size: 1.25em;
+                        font-weight: 600;
+                        letter-spacing: .5px;
+                        text-transform: uppercase;
+                        color: #E24538;
+                        background: transparent;
+                        border: 1px solid #E24538;
+                        border-radius: 50em;
+                        padding: 1em 5.875em;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageEight-3{
+        padding: 0;
+    
+        .section-grid{
+            flex-direction: column-reverse;
+            .left{
+                margin-top: 4.375em;
+                .builder-v2-widget{
+                    position: relative;
+                    right: 2.5em;
+                    width: calc(100% + 5em);
+                }
+            }
+    
+            .right{
+                .main-title{
+                    .builder-v2-widget{
+                        font-size: 1.75em;
+                        letter-spacing: -1px;
+                    }
+                }
+    
+                .main-description{
+                    margin-top: 1.25em;
+                }
+    
+                .grid{
+                    margin-top: 3.125em;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 2.5em;
+                    .item{
+                        max-width: 18.375em;
+                        .top{
+                            display: flex;
+                            align-items: center;
+                            .title{
+                                .builder-v2-widget{
+                                    font-size: 1.25em;
+                                }
+                            }
+                        }
+    
+                        .description{
+                            margin-top: 1.125em;
+                            .builder-v2-widget{
+                                font-size: .8125em;
+                            }
+                        }
+                    }
+                }
+
+                .button{
+                    margin-top: 2.5em;
+                    .builder-v2-widget{
+                        button{
+                            font-size: 1em;
+                            padding: .625em;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

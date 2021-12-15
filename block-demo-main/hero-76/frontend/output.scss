@@ -1,0 +1,186 @@
+.tc-v2-region-pageEight-5{
+    padding: 5em;
+    background-color: #F8F9F9;
+    overflow: hidden;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 100%;
+    }
+
+    .region-wrap{
+        position: relative;
+        z-index: 1;
+        &::before{
+            display: none;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: -12em;
+            left: -15em;
+            width: 12.1875em;
+            height: 12.1875em;
+            border-radius: 50%;
+            background: #CF97B7;
+            z-index: -1;
+        }
+        .asset{
+            position: absolute;
+            bottom: -7em;
+            right: -3em;
+            z-index: -1;
+            .builder-v2-widget{
+                width: 34.6875em;
+            }
+        }
+    }
+    .section-grid{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            .text{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 3.125em;
+                border-bottom: 1px solid #DEDEDE;
+            }
+            .title{
+                max-width: 31.25em;
+                .builder-v2-widget{
+                    font-size: 3.125em;
+                    font-weight: 600;
+                    letter-spacing: .3px;
+                    line-height: 1.2em;
+                    color: #261E12;
+                }
+            }
+            .description{
+                max-width: 31.125em;
+                .builder-v2-widget{
+                    font-size: 1em;
+                    letter-spacing: .3px;
+                    color: #261E12;
+                    opacity: .7;
+                }
+            }
+            .grid{
+                margin-top: 3.125em;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-gap: 3.125em;
+                grid-row-gap: 3.75em;
+                .icon{
+                    .builder-v2-widget{
+                        width: 3.75em;
+                    }
+                }
+                .item-title{
+                    margin-top: 1.875em;
+                    .builder-v2-widget{
+                        font-size: 1.5em;
+                        color: #261E12;
+                        font-weight: 600;
+                        left: .3px;
+                    }
+                }
+                .item-description{
+                    margin-top: 1.25em;
+                    .builder-v2-widget{
+                        font-size: .8125em;
+                        color: #261E12;
+                        opacity: .7;
+                        letter-spacing: .3px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 576px){
+
+    .tc-v2-region-pageEight-5{
+        padding: 0;
+        p{
+            margin: 0;
+        }
+        img{
+            width: 100%;
+        }
+    
+        .region-wrap{
+            position: relative;
+            padding-bottom: 15em;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 13em;
+                right: -5em;
+                width: 7.5em;
+                height: 7.5em;
+                border-radius: 50%;
+                background: #CF97B7;
+                z-index: -1;
+                display: block;
+            }
+
+            .asset{
+                position: absolute;
+                bottom: 0em;
+                right: -4em;
+                z-index: -1;
+                .builder-v2-widget{
+                    width: 24.375em;
+                }
+            }
+        }
+        .section-grid{
+            flex-direction: column;
+            .left{
+                .text{
+                    flex-direction: column;
+                    align-items: center;
+                    padding-bottom: 0;
+                    border-bottom: none;
+                }
+                .title{
+                    .builder-v2-widget{
+                        font-size: 1.75em;
+                        letter-spacing: -1px;
+                    }
+                }
+                .description{
+                    margin-top: 1.25em;
+                }
+                .grid{
+                    margin-top: 3.125em;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-gap: 2.5em;
+                    .item{
+                        max-width: 16.375em;
+                        .item-title{
+                            .builder-v2-widget{
+                                font-size: 1.25em;
+                                color: #261E12;
+                                font-weight: 600;
+                            }
+                        }
+                        .item-description{
+                            margin-top: .875em;
+                            .builder-v2-widget{
+                                font-size: .8125em;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+    
+    }
+
+}

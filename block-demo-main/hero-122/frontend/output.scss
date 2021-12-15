@@ -150,6 +150,9 @@
                                 letter-spacing: .3px;
                                 color: #121212;
                             }
+                            .mobile{
+                                display: none;
+                            }
                         }
                     }
                     .right-{
@@ -491,7 +494,6 @@
         padding: 0;
         .section-title{
             margin: 0 auto;
-            display: none;
             .builder-v2-widget{
                 font-size: 2.8125em;
             }
@@ -499,7 +501,6 @@
     
         .section-description{
             margin: 1.25em auto 0;
-            display: none;
         }
         
         .max-width{
@@ -574,9 +575,6 @@
                         border: 1px solid #DEE5ED;
                         border-radius: 0.5em;
                         padding: 0;
-                        &:first-child{
-                            border-right: none;
-                        }
                         .left-{
                             padding: 1em;
                             display: flex;
@@ -584,6 +582,16 @@
                             justify-content: space-between;
                             align-items: center;
                             width: 100%;
+                            .text{
+                                margin: 0;
+                                .mobile{
+                                    margin-top: .5em;
+                                    font-size: .8125em;
+                                    color: #1C2439;
+                                    opacity: .7;
+                                    display: block;
+                                }
+                            }
                         }
                         .right-{
                             display: none;
@@ -593,6 +601,7 @@
     
                 .payment-info{
                     margin: 1.75em 0 1.5em;
+                    padding: 0;
                 }
                 .payment-info-grid{
                     flex-direction: column;
@@ -605,13 +614,20 @@
                         border: 1px solid #DEE5ED;
                         border-radius: 0.5em;
                         padding: 0;
+                        flex-direction: row-reverse;
+                        justify-content: left;
+                        position: relative;
+                        padding: 1.25em 0;
                         &:last-child{
                             border: 1px solid #DEE5ED;
                         }
                         .left-{
                             display: flex;
                             align-items: center;
-                            padding: 1em;
+                            flex-direction: row-reverse;
+                            justify-content: space-between;
+                            width: 100%;
+                            padding-right: 1em;
                             .text{
                                 margin-left: .625em;
                             }
@@ -619,6 +635,7 @@
                         .right-{
                             display: flex;
                             align-items: center;
+                            padding-left: 1em;
                             .discount{
                                 .builder-v2-widget{
                                     width: 2em;
@@ -626,7 +643,7 @@
                             }
                             .paypal{
                                 .builder-v2-widget{
-                                    width: 1.5em;
+                                    width: 2em;
                                 }
                             }
                             .text{
@@ -651,14 +668,12 @@
             }
             .right{
                 width: 100%;
-                padding: 0;
                 margin-top: 1.25em;
-                background: #FAFBFF;
                 padding: 1.25em 0;
                 .profile{
                     display: flex;
-                    padding-bottom: 1.25em;
                     border-bottom: 1px solid #E5E7F0;
+                    padding: 0 1.25em 1.25em;
                     .image{
                         .builder-v2-widget{
                             width: 5em;
@@ -686,6 +701,7 @@
     
                 .get{
                     margin-top: 1.5em;
+                    padding: 0 1.25em;
                     .title{
                         .builder-v2-widget{
                             font-weight: 600;
@@ -705,69 +721,21 @@
                         }
                     }
                 }
+
+                .padding-telegram{
+                    padding: 0 1.25em;
+                }
                 .telegram{
                     margin-top: 2.5em;
                     background: #EAF4FF;
                     border: 1px solid #2D8DFE;
                     border-radius: .5em;
                     padding: 1.25em;
-                    .top{
-                        display: flex;
-                        padding-bottom: 1.5em;
-                        border-bottom: 1px solid #CDD2EA;
-                        .image{
-                            margin-right: 1em;
-                            .builder-v2-widget{
-                                width: 2.5em;
-                            }
-                        }
-                        .text{
-                            margin-top: .5em;
-                            .title{
-                                .builder-v2-widget{
-                                    font-size: 1em;
-                                    font-weight: 600;
-                                    letter-spacing: .3px;
-                                    color: #423496;
-                                }
-                            }
-                            .description{
-                                margin-top: .625em;
-                                .builder-v2-widget{
-                                    font-size: .8125em;
-                                    letter-spacing: .3px;
-                                    color: #121212;
-                                    opacity: .7;
-                                }
-                            }
-                        }
-                    }
-                    .bot{
-                        margin-top: 1.25em;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        .form-control{
-                            display: flex;
-                            grid-gap: 1.25em;
-                            align-items: center;
-                            font-size: .875em;
-                            letter-spacing: .3px;
-                            color: rgba(18, 18, 18, .7);
-                        }
-                        .price{
-                            .builder-v2-widget{
-                                font-size: .875em;
-                                font-weight: 600;
-                                color: #121212;
-                                opacity: .7;
-                            }
-                        }
-                    }
                 }
     
                 .payment{
                     margin-top: 1.875em;
+                    padding:0 1.25em;
                     .title-p{
                         .builder-v2-widget{
                             font-size: 1.25em;
